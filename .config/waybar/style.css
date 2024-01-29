@@ -1,18 +1,5 @@
 @import '../../.cache/wal/colors-waybar.css';
 
-@define-color bg_100 rgba(0, 0, 0, 1);
-@define-color bg_90 rgba(0, 0, 0, 0.9);
-@define-color bg_80 rgba(0, 0, 0, 0.8);
-@define-color bg_70 rgba(0, 0, 0, 0.7);
-@define-color bg_60 rgba(0, 0, 0, 0.6);
-@define-color bg_50 rgba(0, 0, 0, 0.5);
-@define-color bg_40 rgba(0, 0, 0, 0.4);
-@define-color bg_30 rgba(0, 0, 0, 0.3);
-@define-color bg_20 rgba(0, 0, 0, 0.2);
-@define-color bg_10 rgba(0, 0, 0, 0.1);
-@define-color bg_0 rgba(0, 0, 0, 0);
-
-
 /*
     ┏┓┓ ┏┳┓  ┏┓┏┓┓ ┏┓┳┓┏┓
     ┃┃┃┃┃┃┃  ┃ ┃┃┃ ┃┃┣┫┗┓
