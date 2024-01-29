@@ -1,8 +1,47 @@
 @import '../../.cache/wal/colors-waybar.css';
 
-@define-color bar-bg rgba(0, 0, 0, 0);
-@define-color main-bg rgba(0, 0, 0, 1);
-@define-color main-fg @foreground;
+@define-color bg_100 rgba(0, 0, 0, 1);
+@define-color bg_90 rgba(0, 0, 0, 0.9);
+@define-color bg_80 rgba(0, 0, 0, 0.8);
+@define-color bg_70 rgba(0, 0, 0, 0.7);
+@define-color bg_60 rgba(0, 0, 0, 0.6);
+@define-color bg_50 rgba(0, 0, 0, 0.5);
+@define-color bg_40 rgba(0, 0, 0, 0.4);
+@define-color bg_30 rgba(0, 0, 0, 0.3);
+@define-color bg_20 rgba(0, 0, 0, 0.2);
+@define-color bg_10 rgba(0, 0, 0, 0.1);
+@define-color bg_0 rgba(0, 0, 0, 0);
+
+
+/*
+    ┏┓┓ ┏┳┓  ┏┓┏┓┓ ┏┓┳┓┏┓
+    ┃┃┃┃┃┃┃  ┃ ┃┃┃ ┃┃┣┫┗┓
+    ┗┛┗┻┛┛┗  ┗┛┗┛┗┛┗┛┛┗┗┛
+*/
+
+/* waybar area/group colors*/
+@define-color apps rgba(0, 0, 0, 0.6);
+@define-color quicklinks rgba(0, 0, 0, 0.4);
+@define-color workspaces rgba(0, 0, 0, 0.6);
+@define-color taskbar rgba(0, 0, 0, 0.4);
+@define-color clock @foreground;
+@define-color timer rgba(0, 0, 0, 0.4);
+@define-color devices rgba(0, 0, 0, 0.6);
+@define-color system rgba(0, 0, 0, 0.4);
+/* workspace text colors */
+@define-color workspace_fg @foreground;
+@define-color act_wrk_fg rgba(0, 0, 0, 1);
+@define-color use_wrk_fg @color5;
+/* workspace button-background colors */
+@define-color workspace_bg rgba(0, 0, 0, 0.6);
+@define-color act_wrk_bg @foreground;
+/* taskbar button-background colors */
+@define-color taskbar_bg rgba(255, 255, 255, 0.2);
+/* updates-widget icon+text colors */
+@define-color updates_green #a3be8c;
+@define-color updates_yellow #ff9a3c;
+@define-color updates_red #dc2f2f;
+
 
 /*
     ┏┓┏┓┳┓┏┓┳┓┏┓┓
@@ -18,12 +57,13 @@
 }
 
 window#waybar {
-    background: @bar-bg;
+    color: @foreground;
+    background: transparent;
 }
 
 tooltip {
-    background: @main-bg;
-    color: @main-fg;
+    background: @background;
+    color: @foreground;
     border-radius: 7px;
     border-width: 0px;
 }
@@ -41,15 +81,12 @@ tooltip {
 
 /* ALL workspace buttons (Focused + Unfocused) */
 #workspaces button:hover {
-/*
-    opacity:1;
-*/
 }
 
 /* Only focused workspace*/
 #workspaces button.active {
-    color:  @main-bg;
-    background: @main-fg;
+    color:  @act_wrk_fg;
+    background: @act_wrk_bg;
     border: none;
     padding: 1px 2px;
     margin: 1px 4px;
@@ -60,18 +97,17 @@ tooltip {
    !!! Border style is valid for ALL buttons,
    Set seperate border style for every button. */
 #workspaces button {
-    color: @main-fg;
-    background: @main-bg;
+    color: @workspace_fg;
+    background: @workspace_bg;
     padding: 1px 2px;
     margin: 1px 4px;
     transition: all 0.3s ease-in-out;
-    opacity: 1;
 }
 
 #workspaces button:not(.empty):not(.active) {
+    color: @use_wrk_fg;
     padding: 1px 2px;
     margin: 1px 4px;
-    color: @color5;
 
 }
 
@@ -103,14 +139,12 @@ tooltip {
 #taskbar button {
     padding: 1px 4px;
     margin: 0px 4px;
-    opacity: 1;
 }
 
 #taskbar button.active {
-    background: rgba(255,255,255,.2);
+    background: @taskbar_bg;
     border-radius: 5;
     transition: all 0.3s ease-in-out;
-    opacity:1;
 }
 
 #taskbar button:hover {
@@ -128,7 +162,7 @@ tooltip {
     font-family: "Futura Bk BT";
     font-weight: bold;
     font-size: 14px;
-    color: @main-fg;
+    color: @clock;
     padding: 2px 10px 0px 10px;
     margin: 4px 0px;
     opacity: 1;
@@ -142,27 +176,16 @@ tooltip {
 
 /*
 #custom-updates.green {
-    background-color: #1CAC78;
-    color: #FFFFFF;
+    color: @updates_green;
 }
 */
 
 #custom-updates.yellow {
-    color: #ff9a3c;
+    color: @updates_yellow;
 }
 
 #custom-updates.red {
-    color: #dc2f2f;
-}
-
-/*
-    ┏┓┏┓┳┳┓┳┳┓┏┓┳┓  ┳┓┏┓┏┓┓┏┓┏┓┳┓┏┓┳┳┳┓┳┓
-    ┃ ┃┃┃┃┃┃┃┃┃┃┃┃  ┣┫┣┫┃ ┃┫ ┃┓┣┫┃┃┃┃┃┃┃┃
-    ┗┛┗┛┛ ┗┛ ┗┗┛┛┗  ┻┛┛┗┗┛┛┗┛┗┛┛┗┗┛┗┛┛┗┻┛
- */
-
-#custom-appmenu, #quicklinks, #workspaces, #taskbar, #custom-timer, #devices, #system {
-    background: @main-bg;
+    color: @updates_red;
 }
 
 /*
@@ -192,6 +215,7 @@ tooltip {
 */
 
 #l-apps, #r-apps, #l-quicklinks, #r-quicklinks, #l-workspaces, #r-workspaces, #l-taskbar, #r-taskbar, #l-timer, #r-timer, #l-devices, #r-devices, #l-system, #r-system {
+background: transparent;
 margin-top: 4;
 margin-bottom: 4;
 min-height:0px;
@@ -208,18 +232,18 @@ min-height:0px;
 
 #l-apps {
 border-left: 15 solid transparent;
-border-bottom: 30 solid @main-bg;
+border-bottom: 30 solid @apps;
 margin-left:0;
 }
 
 #r-apps {
-border-left: 15 solid @main-bg;
+border-left: 15 solid @apps;
 border-bottom: 30 solid transparent;
 margin-right:-15;
 }
 
-#custom-appmenu, #l-apps, #r-apps {
-    opacity: .6;
+#custom-appmenu {
+    background: @apps;
 }
 
 /*
@@ -230,18 +254,18 @@ margin-right:-15;
 
 #l-quicklinks {
 border-left: 15 solid transparent;
-border-bottom: 30 solid @main-bg;
+border-bottom: 30 solid @quicklinks;
 margin-left:0;
 }
 
 #r-quicklinks {
-border-left: 15 solid @main-bg;
+border-left: 15 solid @quicklinks;
 border-bottom: 30 solid transparent;
 margin-right:-15;
 }
 
-#quicklinks, #l-quicklinks, #r-quicklinks {
-    opacity: .4;
+#quicklinks {
+background: @quicklinks;
 }
 
 /*
@@ -252,18 +276,18 @@ margin-right:-15;
 
 #l-workspaces {
 border-left: 15 solid transparent;
-border-bottom: 30 solid @main-bg;
+border-bottom: 30 solid @workspaces;
 margin-left:0;
 }
 
 #r-workspaces {
-border-left: 15 solid @main-bg;
+border-left: 15 solid @workspaces;
 border-bottom: 30 solid transparent;
 margin-right:-15;
 }
 
-#workspaces, #l-workspaces, #r-workspaces {
-    opacity: .6;
+#workspaces {
+background: @workspaces;
 }
 
 /*
@@ -274,18 +298,18 @@ margin-right:-15;
 
 #l-taskbar {
 border-left: 15 solid transparent;
-border-bottom: 30 solid @main-bg;
+border-bottom: 30 solid @taskbar;
 margin-left:0;
 }
 
 #r-taskbar {
-border-left: 15 solid @main-bg;
+border-left: 15 solid @taskbar;
 border-bottom: 30 solid transparent;
 margin-right:-15;
 }
 
-#taskbar, #l-taskbar, #r-taskbar {
-    opacity: .4;
+#taskbar {
+background: @taskbar;
 }
 
 /*
@@ -296,18 +320,18 @@ margin-right:-15;
 
 #l-timer {
 border-left: 15 solid transparent;
-border-bottom: 30 solid @main-bg;
+border-bottom: 30 solid @timer;
 margin-left:0;
 }
 
 #r-timer {
-border-left: 15 solid @main-bg;
+border-left: 15 solid @timer;
 border-bottom: 30 solid transparent;
 margin-right:-15;
 }
 
-#custom-timer, #l-timer, #r-timer {
-    opacity: .4;
+#custom-timer {
+background: @timer;
 }
 
 /*
@@ -318,18 +342,18 @@ margin-right:-15;
 
 #l-devices {
 border-left: 15 solid transparent;
-border-bottom: 30 solid @main-bg;
+border-bottom: 30 solid @devices;
 margin-left:0;
 }
 
 #r-devices {
-border-left: 15 solid @main-bg;
+border-left: 15 solid @devices;
 border-bottom: 30 solid transparent;
 margin-right:-15;
 }
 
-#devices, #l-devices, #r-devices {
-    opacity: .6;
+#devices {
+background: @devices;
 }
 
 /*
@@ -340,7 +364,7 @@ margin-right:-15;
 
 #l-system {
 border-left: 15 solid transparent;
-border-bottom: 30 solid @main-bg;
+border-bottom: 30 solid @system;
 margin-left:0;
 }
 
@@ -348,11 +372,11 @@ margin-left:0;
     modules so bar is flush with right edge of monitor.  */
 
 #r-system {
-border-left: 15 solid @main-bg;
+border-left: 15 solid @system;
 border-bottom: 30 solid transparent;
 margin-right:-15;
 }
 
-#system, #l-system, #r-system {
-    opacity: .4;
+#system {
+background: @system;
 }
