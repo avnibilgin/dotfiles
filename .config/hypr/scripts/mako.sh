@@ -5,20 +5,19 @@ case $1 in
 CURRENT_MODE=$(makoctl mode)
 
 if [ "$CURRENT_MODE" = "default" ]; then
-    makoctl set-mode do-not-disturb
+    makoctl mode -s do-not-disturb
     echo "󰂛"
 else
-    makoctl set-mode default
+    makoctl mode -s default
     echo "󰂚"
 fi
     ;;
     *)
         MODE=$(makoctl mode)
-        COUNT=$(makoctl count)
+        COUNT=$(makoctl list | jq '[.data[] | .[].id.data] | length')
 
         ENABLED="󰂚"
         DISABLED="󰂛"
-
         if [ "$COUNT" -ne 0 ]; then
             DISABLED="󰂛 $COUNT"
         fi
@@ -31,6 +30,6 @@ fi
     ;;
 esac
 
-# makoctl mode (Modus zeigen)
-# makoctl set-mode do-not-disturb
-# makoctl set-mode default
+# makoctl mode (show modus)
+# makoctl -s or -a do-not-disturb
+# makoctl -s or -r default

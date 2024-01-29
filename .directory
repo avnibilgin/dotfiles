@@ -1,2 +1,7 @@
 [Desktop Entry]
 Icon=orange-folder-github
+
+[Dolphin]
+SortHiddenLast=true
+Timestamp=2024,1,29,14,45,55.967
+Version=4
