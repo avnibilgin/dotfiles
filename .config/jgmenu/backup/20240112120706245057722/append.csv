@@ -1,0 +1,17 @@
+
+^tag(fav)
+Terminal,uxterm,utilities-terminal
+Browser,firefox,firefox
+File manager,pcmanfm,system-file-manager
+
+^tag(history)
+foo
+bar
+
+^tag(exit)
+Lock,i3lock -c 000000,system-lock-screen
+Exit to prompt,openbox --exit,system-log-out
+Suspend,systemctl -i suspend,system-log-out
+Reboot,systemctl -i reboot,system-reboot
+Poweroff,systemctl -i poweroff,system-shutdown
+

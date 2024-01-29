@@ -1,0 +1,48 @@
+    // Filemanager Launcher
+    "custom/filemanager": {
+        "format": "",
+        "on-click": "~/dotfiles/.settings/filemanager.sh",
+        "tooltip": false
+    },
+
+        // Terminal Launcher
+    "custom/terminal": {
+        "format": "",
+        "on-click": "kitty",
+        "tooltip": false
+    },
+
+        // Editor Launcher
+    "custom/editor": {
+        "format": "",
+        "on-click": "geany",
+        "tooltip": false
+    },
+
+    // Browser Launcher
+    "custom/browser": {
+        "format": "",
+     // "format": "",
+        "on-click": "~/dotfiles/.settings/browser.sh",
+        "tooltip": false
+    },
+
+   // Rofi Application Launcher
+    "custom/appmenu": {
+        "format": "Apps",
+        "on-click": "rofi -show drun -replace",
+        "on-click-right": "jgmenu_run",
+    //  "on-click-right": "~/dotfiles/hypr/scripts/keybindings.sh",
+        "tooltip": false
+    },
+
+    // Group Quicklinks
+    "group/quicklinks": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/filemanager",
+            "custom/browser"
+        //  "custom/terminal",
+        //  "custom/editor"
+         ]
+    },

@@ -1,0 +1,12 @@
+#Favoriten,^pipe(. ~/.config/jgmenu/qtile/pipe-menu.sh favorites-menu),emblem-favorite
+#Web Browser,firefox,firefox
+#File Manager,dolphin,system-file-manager
+#Terminal,alacritty,utilities-terminal
+#Text Editor,geany,text-editor
+#^sep()
+KeepassXC,keepassxc,keepassxc
+Obsidian,~/Applications/Obsidian-1.5.3_9d05c0a25ba09a76045a8778be11300a.AppImage --no-sandbox %U,obsidian
+FeatherNotes,feathernotes,feathernotes
+^sep()
+Software Manager,pamac-manager,package-manager-icon
+^sep()

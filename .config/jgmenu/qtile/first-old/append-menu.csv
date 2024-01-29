@@ -1,0 +1,16 @@
+Test1,^checkout(test1),applications-accessories
+Test2,^checkout(test2),applications-accessories
+Test3,^checkout(test3),applications-accessories
+
+^tag(test1)
+Web Browser,firefox,firefox
+File Manager,dolphin,system-file-manager
+
+^tag(test2)
+Terminal,kitty,utilities-terminal
+Text Editor,geany,text-editor
+
+^tag(test3)
+KeepassXC,keepassxc,keepassxc
+Obsidian,~/Applications/Obsidian-1.5.3_9d05c0a25ba09a76045a8778be11300a.AppImage --no-sandbox %U,obsidian
+FeatherNotes,feathernotes,feathernotes

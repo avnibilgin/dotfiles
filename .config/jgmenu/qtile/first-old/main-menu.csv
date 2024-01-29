@@ -1,0 +1,9 @@
+#   HINWEIS:
+#
+#   Die Inhalte vom 'append-menu.csv' sind mit dem Helferskript
+#   'append2root.sh' in das 'root-menu.csv'(unten) integriert. Das
+#   Helferskript wird in 'menu-launcher.sh' angewendet!
+
+EXIT,^pipe(. ~/.config/jgmenu/qtile/test/pipe-menu.sh exit-menu)
+. ~/.config/jgmenu/qtile/test/prepend-menu.csv
+. ~/.config/jgmenu/qtile/test/root-menu.csv

@@ -1,0 +1,179 @@
+@import '../../.cache/wal/colors-waybar.css';
+
+@define-color bar-bg rgba(0, 0, 0, 0);
+@define-color main-bg rgba(0, 0, 0, .8);
+@define-color main-fg @foreground;
+@define-color wb-act-bg @color11;
+@define-color wb-act-fg @color0;
+@define-color wb-hvr-bg @color11;
+@define-color wb-hvr-fg @color0;
+
+
+* {
+    font-family: "Fira Sans SemiBold";
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 16px;
+}
+
+window#waybar {
+    background: @bar-bg;
+}
+
+tooltip {
+    background: @main-bg;
+    color: @main-fg;
+    border-radius: 7px;
+    border-width: 0px;
+}
+
+
+/* ALL workspace buttons (Focused + Unfocused) */
+#workspaces button:hover {
+    opacity:0.8;
+}
+
+/* Only focused workspace*/
+#workspaces button.active {
+    color:  @main-bg;
+    background: @main-fg;
+    border: none;
+    padding: 1px 4px;
+    margin: 1px 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Unfocused workspace WITH opened Apps
+ * !!! Border style is valid for ALL buttons,
+ * Set seperate border style for every button. */
+#workspaces button {
+    color: @main-fg;
+    background: @main-bg;
+    padding: 1px 4px;
+    margin: 1px 4px;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+
+#workspaces button:not(.empty):not(.active) {
+    padding: 1px 4px;
+    margin: 1px 4px;
+    color: @color5;
+
+}
+
+/*
+ # WEITER DESIGN-ATTRIBUTE
+ #workspaces button.empty
+ #workspaces button.persistent
+ #workspaces button:not(.persistent)
+ #workspaces button:not(.active) usw.
+ */
+
+#taskbar.empty {
+    background: transparent;
+}
+
+#taskbar button {
+    padding: 1px 4px;
+    margin: 0px 4px;
+    opacity: 1;
+}
+
+#taskbar button.active {
+    background: rgba(255,255,255,.08);
+    border-radius: 0;
+    transition: all 0.3s ease-in-out;
+    opacity:1;
+}
+
+#taskbar button:hover {
+    border-radius: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+#custom-appmenu, #quicklinks, #window, #taskbar, #custom-timer, #devices, #tray, #system {
+    background: @main-bg;
+}
+
+#clock {
+    font-family: "Futura Bk BT";
+    font-weight: bold;
+    font-size: 14px;
+    color: @main-fg;
+    padding: 2px 10px 0px 10px;
+    margin: 4px 0px;
+}
+
+#custom-timer {
+    padding: 2px 10px 0px 10px;
+    margin: 4px 0px;
+    min-width: 30px;
+}
+
+#cpu,
+#memory,
+#mpris,
+#custom-spotify,
+#custom-mode,
+#custom-gpuinfo,
+#custom-ddcutil,
+#custom-updates,
+#custom-power,
+#custom-cliphist,
+#custom-mako,
+#idle_inhibitor,
+#bluetooth,
+#pulseaudio,
+#network,
+#custom-ddc_brightness,
+#custom-filemanager,
+#custom-browser,
+#custom-terminal,
+#custom-editor,
+#custom-appmenu,
+#quicklinks, #workspaces, #window, #taskbar, #devices, #tray, #system {
+    padding: 0px 10px;
+    margin: 4px 0px;
+}
+
+#custom-appmenu,
+#quicklinks,
+#workspaces,
+#taskbar,
+#clock,
+#custom-timer,
+#devices,
+#system {
+    opacity: .8;
+}
+
+#custom-appmenu,
+#quicklinks,
+#workspaces, #workspaces button,
+#taskbar, #taskbar button,
+#devices,
+#clock, #custom-timer,
+#custom-updates,
+#system {
+    border-radius: 5px;
+}
+
+/* -----------------------------------------------------
+ * Custom Updates
+ * ----------------------------------------------------- */
+
+/*
+#custom-updates.green {
+    background-color: #1CAC78;
+    color: #FFFFFF;
+}
+*/
+
+#custom-updates.yellow {
+    color: #ff9a3c;
+}
+
+#custom-updates.red {
+    color: #dc2f2f;
+}

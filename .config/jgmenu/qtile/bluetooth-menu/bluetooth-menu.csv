@@ -1,0 +1,7 @@
+Blutooth Manager, blueman-manager
+^sep(Lautsprecher (Echo Dot-J1W))
+ Koppeln,bluetoothctl connect 74:58:F3:D2:2D:E2
+ Entkoppeln, bluetoothctl disconnect 74:58:F3:D2:2D:E2
+^sep(Kopfhörer (WF-C500))
+ Koppeln,bluetoothctl connect 30:53:C1:DC:44:A6
+ Entkoppeln,bluetoothctl disconnect 30:53:C1:DC:44:A6

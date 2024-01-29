@@ -1,0 +1,6 @@
+timeout 570 'notify-send -u critical "Achtung!" "Bildschirmsperre wird in 30 Sekunden aktiv"'
+timeout 600 'swaylock -f'
+timeout 630 'hyprctl dispatch dpms off' resume 'hyprctl dispatch dpms on'
+timeout 3600 'systemctl suspend'
+before-sleep 'swaylock -f'
+after-resume 'hyprctl dispatch dpms on'

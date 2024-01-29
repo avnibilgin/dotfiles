@@ -1,0 +1,5 @@
+  Lock,betterlockscreen -l
+  Logout,qtile cmd-obj -o cmd -f shutdown
+  Reboot,systemctl reboot
+  Suspend,systemctl suspend
+  Poweroff,systemctl poweroff

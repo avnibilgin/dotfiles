@@ -1,0 +1,9 @@
+^sep()
+Lock,swaylock,system-lock-screen
+Exit,^checkout(exit),system-shutdown
+^sep()
+Schließen, ^quit(), emblem-unavailable
+^tag(exit)
+Logout,hyprctl dispatch exit,system-log-out
+Reboot,systemctl -i reboot,system-reboot
+Poweroff,systemctl -i poweroff,system-shutdown

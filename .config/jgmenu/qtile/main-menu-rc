@@ -1,0 +1,14 @@
+terminal_exec        = alacritty
+terminal_args        = -e
+menu_margin_x        = 10
+menu_margin_y        = 35
+menu_halign          = left
+menu_valign          = top
+item_radius          = 4
+color_menu_bg        = #090E1D 80
+color_norm_bg        = #2b303b 0
+color_norm_fg        = #f3d2d9 100
+color_sel_bg         = #D76796 90
+color_sel_fg         = #f3d2d9 100
+color_sep_fg         = #D391AF 40
+color_menu_border    = #D391AF 90

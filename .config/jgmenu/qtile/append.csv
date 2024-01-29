@@ -1,0 +1,3 @@
+^sep()
+Exit,^pipe(. ~/.config/jgmenu/qtile/pipe-menu.sh exit-menu),system-shutdown
+Bluetooth,^pipe(. ~/.config/jgmenu/qtile/pipe-menu.sh bluetooth-menu),blueman-device

@@ -1,0 +1,16 @@
+file:///home/thor/dotfiles dotfiles
+file:///home/thor/dotfiles/hypr hypr
+file:///home/thor/dotfiles/waybar waybar
+file:///home/thor/dotfiles/waybar/themes/ml4w-bottom/light waybar-light
+file:///home/thor/dotfiles/scripts scripts
+file:///home/thor/dotfiles/dunst dunst
+file:///home/thor/dotfiles/rofi rofi
+file:///home/thor/.config .config
+file:///home/thor/.config/autostart autostart
+file:///home/thor/.local/share (.local) share
+file:///home/thor/.local/share/applications (.local) applications
+file:///usr/share (usr) share
+file:///usr/share/applications (usr) applications
+file:///home/thor/.config(backup) .config(backup)
+file:///home/thor/.config/hypr(sicherung) hypr(sicherung)
+file:///home/thor/.config/waybar(sicherung) waybar(sicherung)

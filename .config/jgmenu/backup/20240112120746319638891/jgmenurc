@@ -1,0 +1,17 @@
+position_mode = center
+columns = 3
+menu_width = 650
+menu_height_min = 410
+menu_height_max = 410
+menu_padding_top = 15
+menu_padding_right = 15
+menu_padding_bottom = 15
+menu_padding_left = 15
+menu_radius = 15
+menu_border = 4
+#menu_halign = center
+#menu_valign = center
+color_menu_bg = #000000 65
+color_menu_border = #eeeeee 20
+csv_no_dirs = 1
+csv_name_format = %n

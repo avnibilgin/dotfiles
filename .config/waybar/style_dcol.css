@@ -1,0 +1,153 @@
+@import '../../.cache/wal/colors-waybar.css';
+
+@define-color bar-bg rgba(0, 0, 0, 0);
+@define-color main-bg @background;
+@define-color main-fg @foreground;
+@define-color wb-act-bg @color11;
+@define-color wb-act-fg @color0;
+@define-color wb-hvr-bg @color11;
+@define-color wb-hvr-fg @color0;
+
+* {
+    font-family: "Futura Bk BT";
+    font-weight: bold;
+    font-size: 11px;
+    min-height: 16px;
+}
+
+window#waybar {
+    background: @bar-bg;
+}
+
+tooltip {
+    background: @main-bg;
+    color: @main-fg;
+    border-radius: 7px;
+    border-width: 0px;
+}
+
+#workspaces button {
+    color: @wb-act-bg;
+    background: @main-bg;
+    padding: 1px 5px;
+    margin: 4px 1px;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.8;
+}
+
+#workspaces button.active {
+    color:  @wb-act-fg;
+    background: @wb-act-bg;
+    min-width: 40px;
+    transition: all 0.3s ease-in-out;
+    opacity:1.0;
+}
+
+#workspaces button:hover {
+    color: @wb-act-fg;
+    background: @wb-act-bg;
+    opacity:0.7;
+}
+
+#taskbar.empty {
+background-color: transparent;
+}
+
+#taskbar button {
+    padding: 1px 4px;
+    margin: 4px;
+    opacity: 0.8;
+}
+
+#taskbar button.active {
+    color: @wb-act-fg;
+    background: @wb-act-bg;
+    padding: 1px 12px;
+    margin: 4px 1px;
+    transition: all 0.3s ease-in-out;
+    opacity:1;
+}
+
+#taskbar button:hover {
+    color: @wb-act-fg;
+    background: @wb-act-bg;
+    transition: all 0.3s ease-in-out;
+    opacity:0.7;
+}
+
+#bluetooth,
+#pulseaudio,
+#network,
+#idle_inhibitor,
+#cpu,
+#memory,
+#mpris,
+#custom-spotify,
+#custom-mode,
+#custom-cliphist,
+#custom-dunst,
+#custom-power,
+#custom-gpuinfo,
+#custom-updates,
+#custom-ddc_brightness,
+#custom-ddcutil,
+#custom-filemanager,
+#custom-browser,
+#custom-terminal,
+#custom-editor,
+#quicklinks, #workspaces, #window, #taskbar, #devices, #tray, #system {
+    color: @main-fg;
+    background: @main-bg;
+    padding: 0px 4px;
+    margin: 4px 0px;
+}
+
+#custom-appmenu, #custom-timer, #clock {
+    color: @main-fg;
+    background: @main-bg;
+    padding: 0px 8px;
+    margin: 4px 0px;
+}
+
+#custom-appmenu,
+#quicklinks,
+#workspaces,
+#taskbar,
+#clock,
+#custom-timer,
+#devices,
+#system {
+    opacity: 0.8;
+}
+
+#custom-appmenu,
+#quicklinks,
+#workspaces, #workspaces button,
+#taskbar, #taskbar button,
+#devices,
+#clock, #custom-timer,
+#custom-updates,
+#system {
+    border-radius: 15px;
+}
+
+/* -----------------------------------------------------
+ * Custom Updates
+ * ----------------------------------------------------- */
+
+/*
+#custom-updates.green {
+    background-color: #1CAC78;
+    color: #FFFFFF;
+}
+*/
+
+#custom-updates.yellow {
+    background-color: #ff9a3c;
+    color: #FFFFFF;
+}
+
+#custom-updates.red {
+    background-color: #dc2f2f;
+    color: #FFFFFF;
+}

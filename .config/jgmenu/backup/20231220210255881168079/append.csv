@@ -1,0 +1,10 @@
+^sep()
+Verlassen,^checkout(logout),system-shutdown
+
+^tag(logout)
+Logout,awesome-client "awesome.quit()",/home/thor/.local/share/icons/hicolor/custom-desktop-icons/system-logout.svg
+Suspend,systemctl suspend,/home/thor/.local/share/icons/hicolor/custom-desktop-icons/system-suspend.svg
+Hibernate,systemctl hibernate,/home/thor/.local/share/icons/hicolor/custom-desktop-icons/system-hibernate.svg
+Reboot,systemctl reboot,/home/thor/.local/share/icons/hicolor/custom-desktop-icons/system-restart.svg
+Lock screen, mbscreenlocker,/home/thor/.local/share/icons/hicolor/custom-desktop-icons/system-lockscreen2.svg
+Shutdown,systemctl poweroff,/home/thor/.local/share/icons/hicolor/custom-desktop-icons/system-shutdown.svg

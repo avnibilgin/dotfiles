@@ -1,0 +1,100 @@
+// Config //
+configuration {
+    modi:                        "drun";
+    show-icons:                  false;
+    font:                        "JetBrainsMono Nerd Font 9";
+}
+
+@theme "~/.config/rofi/themes/theme.rasi"
+@import "~/.cache/wal/colors-rofi-pywal"
+
+// Main //
+window {
+    height:                      55%;
+    width:                       20%;
+    transparency:                "real";
+    fullscreen:                  false;
+    enabled:                     true;
+    cursor:                      "default";
+    spacing:                     0px;
+    padding:                     0px;
+    border:                      2px;
+    border-radius:               15px;
+    border-color:                @color3;
+    background-color:            transparent;
+}
+mainbox {
+    enabled:                     true;
+    spacing:                     0px;
+    orientation:                 vertical;
+    children:                    [ "inputbar" , "listbox" ];
+    background-color:            transparent;
+    background-image:            url("~/.cache/current_wallpaper.blur", height);
+}
+
+
+// Inputs //
+inputbar {
+    enabled:                     true;
+    padding:                     7px;
+    children:                    [ "entry" ];
+    background-color:            @background;
+}
+entry {
+    enabled:                     true;
+    padding:                     70px;
+    text-color:                  @foreground;
+    background-color:            @background;
+    background-image:            url("~/.cache/current_wallpaper.jpg", width);
+}
+
+
+// Lists //
+listbox {
+    spacing:                     0px;
+    padding:                     6px;
+    children:                    [ "listview" ];
+    background-color:            @background;
+}
+listview {
+    enabled:                     true;
+    columns:                     1;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                false;
+    fixed-columns:               true;
+    cursor:                      "default";
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+
+
+// Elements //
+element {
+    enabled:                     true;
+    spacing:                     0px;
+    padding:                     12px;
+    border-radius:               10px;
+    cursor:                      pointer;
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+@media(max-aspect-ratio: 1.8) {
+    element {
+        orientation:             vertical;
+    }
+}
+element selected.normal {
+    background-color:            @color6;
+    text-color:                  @foreground;
+}
+element-text {
+    vertical-align:              0.0;
+    horizontal-align:            0.0;
+    cursor:                      inherit;
+    background-color:            transparent;
+    text-color:                  inherit;
+}
