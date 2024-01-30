@@ -180,6 +180,7 @@
         "format-linked": "󱘖 {ifname} (No IP)",
         "format-disconnected": " Disconnected",
         "format-alt": "󰤨 {essid}",
+        "on-click": "alacritty --class nmtui -e nmtui",
         "interval": 5
     },
 
