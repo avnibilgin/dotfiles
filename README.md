@@ -2,6 +2,7 @@
 
 # Dotfiles for my Arch Linux + Hyprland configuration
 
-> „Simplicity is the ultimate sophistication.“              
+
+> „Simplicity is the ultimate sophistication.“
 >
->                                    Leonardo da Vinci
+>  Leonardo da Vinci
