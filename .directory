@@ -3,5 +3,8 @@ Icon=orange-folder-github
 
 [Dolphin]
 SortHiddenLast=true
-Timestamp=2024,1,29,14,45,55.967
+Timestamp=2024,1,30,19,9,40.913
 Version=4
+
+[Settings]
+HiddenFilesShown=true
