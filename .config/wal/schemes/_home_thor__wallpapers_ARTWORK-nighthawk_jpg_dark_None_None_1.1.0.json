@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/ARTWORK-nighthawk.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#14110f",
+        "foreground": "#cdd5c1",
+        "cursor": "#cdd5c1"
+    },
+    "colors": {
+        "color0": "#14110f",
+        "color1": "#A96A28",
+        "color2": "#218756",
+        "color3": "#5F9072",
+        "color4": "#699373",
+        "color5": "#CCC873",
+        "color6": "#709A83",
+        "color7": "#cdd5c1",
+        "color8": "#8f9587",
+        "color9": "#A96A28",
+        "color10": "#218756",
+        "color11": "#5F9072",
+        "color12": "#699373",
+        "color13": "#CCC873",
+        "color14": "#709A83",
+        "color15": "#cdd5c1"
+    }
+}

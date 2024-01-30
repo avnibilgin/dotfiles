@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/city_bridge.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E181F",
+        "foreground": "#91c2d4",
+        "cursor": "#91c2d4"
+    },
+    "colors": {
+        "color0": "#0E181F",
+        "color1": "#284F76",
+        "color2": "#525F61",
+        "color3": "#8A796B",
+        "color4": "#305988",
+        "color5": "#196497",
+        "color6": "#2961AB",
+        "color7": "#91c2d4",
+        "color8": "#658794",
+        "color9": "#284F76",
+        "color10": "#525F61",
+        "color11": "#8A796B",
+        "color12": "#305988",
+        "color13": "#196497",
+        "color14": "#2961AB",
+        "color15": "#91c2d4"
+    }
+}

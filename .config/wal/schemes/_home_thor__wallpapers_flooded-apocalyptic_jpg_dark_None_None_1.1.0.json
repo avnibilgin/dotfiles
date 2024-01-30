@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/flooded-apocalyptic.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b1618",
+        "foreground": "#d2dcdb",
+        "cursor": "#d2dcdb"
+    },
+    "colors": {
+        "color0": "#0b1618",
+        "color1": "#58A636",
+        "color2": "#98D13A",
+        "color3": "#1A6596",
+        "color4": "#4B7494",
+        "color5": "#5F91A6",
+        "color6": "#43AFD4",
+        "color7": "#d2dcdb",
+        "color8": "#939a99",
+        "color9": "#58A636",
+        "color10": "#98D13A",
+        "color11": "#1A6596",
+        "color12": "#4B7494",
+        "color13": "#5F91A6",
+        "color14": "#43AFD4",
+        "color15": "#d2dcdb"
+    }
+}

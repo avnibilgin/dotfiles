@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/cyber.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e0721",
+        "foreground": "#ba9fcd",
+        "cursor": "#ba9fcd"
+    },
+    "colors": {
+        "color0": "#0e0721",
+        "color1": "#69329A",
+        "color2": "#5230A7",
+        "color3": "#503ABB",
+        "color4": "#6444B6",
+        "color5": "#6A5BDE",
+        "color6": "#9F47A6",
+        "color7": "#ba9fcd",
+        "color8": "#826f8f",
+        "color9": "#69329A",
+        "color10": "#5230A7",
+        "color11": "#503ABB",
+        "color12": "#6444B6",
+        "color13": "#6A5BDE",
+        "color14": "#9F47A6",
+        "color15": "#ba9fcd"
+    }
+}

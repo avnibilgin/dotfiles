@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/river-dreamland-town.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090A0D",
+        "foreground": "#d1d9e1",
+        "cursor": "#d1d9e1"
+    },
+    "colors": {
+        "color0": "#090A0D",
+        "color1": "#506E9E",
+        "color2": "#3D77CC",
+        "color3": "#5888AD",
+        "color4": "#518ED2",
+        "color5": "#6EA2D4",
+        "color6": "#99B3D3",
+        "color7": "#d1d9e1",
+        "color8": "#92979d",
+        "color9": "#506E9E",
+        "color10": "#3D77CC",
+        "color11": "#5888AD",
+        "color12": "#518ED2",
+        "color13": "#6EA2D4",
+        "color14": "#99B3D3",
+        "color15": "#d1d9e1"
+    }
+}

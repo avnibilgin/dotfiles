@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/neon_car.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E064F",
+        "foreground": "#cdbee0",
+        "cursor": "#cdbee0"
+    },
+    "colors": {
+        "color0": "#0E064F",
+        "color1": "#535AB1",
+        "color2": "#6450AF",
+        "color3": "#A94CBD",
+        "color4": "#9E68CA",
+        "color5": "#7587C3",
+        "color6": "#8F8BCA",
+        "color7": "#cdbee0",
+        "color8": "#8f859c",
+        "color9": "#535AB1",
+        "color10": "#6450AF",
+        "color11": "#A94CBD",
+        "color12": "#9E68CA",
+        "color13": "#7587C3",
+        "color14": "#8F8BCA",
+        "color15": "#cdbee0"
+    }
+}

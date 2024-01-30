@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/black-pendent-lamps.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0b11",
+        "foreground": "#ede5c3",
+        "cursor": "#ede5c3"
+    },
+    "colors": {
+        "color0": "#0c0b11",
+        "color1": "#8D775B",
+        "color2": "#D8AF64",
+        "color3": "#778E89",
+        "color4": "#8B998D",
+        "color5": "#98A695",
+        "color6": "#AFB398",
+        "color7": "#ede5c3",
+        "color8": "#a5a088",
+        "color9": "#8D775B",
+        "color10": "#D8AF64",
+        "color11": "#778E89",
+        "color12": "#8B998D",
+        "color13": "#98A695",
+        "color14": "#AFB398",
+        "color15": "#ede5c3"
+    }
+}

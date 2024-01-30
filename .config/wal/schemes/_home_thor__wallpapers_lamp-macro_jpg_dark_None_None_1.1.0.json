@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/lamp-macro.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#292225",
+        "foreground": "#ebd6c6",
+        "cursor": "#ebd6c6"
+    },
+    "colors": {
+        "color0": "#292225",
+        "color1": "#6B5C65",
+        "color2": "#526374",
+        "color3": "#9A5E53",
+        "color4": "#CE6C55",
+        "color5": "#E4966E",
+        "color6": "#526B81",
+        "color7": "#ebd6c6",
+        "color8": "#a4958a",
+        "color9": "#6B5C65",
+        "color10": "#526374",
+        "color11": "#9A5E53",
+        "color12": "#CE6C55",
+        "color13": "#E4966E",
+        "color14": "#526B81",
+        "color15": "#ebd6c6"
+    }
+}

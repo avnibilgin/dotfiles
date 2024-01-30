@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/peyto-lake.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b1011",
+        "foreground": "#afbbc0",
+        "cursor": "#afbbc0"
+    },
+    "colors": {
+        "color0": "#0b1011",
+        "color1": "#2F646A",
+        "color2": "#535E67",
+        "color3": "#4F6F77",
+        "color4": "#627B84",
+        "color5": "#7B7F85",
+        "color6": "#608189",
+        "color7": "#afbbc0",
+        "color8": "#7a8286",
+        "color9": "#2F646A",
+        "color10": "#535E67",
+        "color11": "#4F6F77",
+        "color12": "#627B84",
+        "color13": "#7B7F85",
+        "color14": "#608189",
+        "color15": "#afbbc0"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/glacier-national-park.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#04070F",
+        "foreground": "#c0c7e9",
+        "cursor": "#c0c7e9"
+    },
+    "colors": {
+        "color0": "#04070F",
+        "color1": "#343C85",
+        "color2": "#3B4693",
+        "color3": "#545BA2",
+        "color4": "#6F79C5",
+        "color5": "#7484B6",
+        "color6": "#7A86D0",
+        "color7": "#c0c7e9",
+        "color8": "#868ba3",
+        "color9": "#343C85",
+        "color10": "#3B4693",
+        "color11": "#545BA2",
+        "color12": "#6F79C5",
+        "color13": "#7484B6",
+        "color14": "#7A86D0",
+        "color15": "#c0c7e9"
+    }
+}

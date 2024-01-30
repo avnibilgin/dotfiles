@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/road-marking-desert.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0810",
+        "foreground": "#dde1de",
+        "cursor": "#dde1de"
+    },
+    "colors": {
+        "color0": "#0A0810",
+        "color1": "#9E6751",
+        "color2": "#BB8D75",
+        "color3": "#95ADAE",
+        "color4": "#A8BCBB",
+        "color5": "#B1C0BD",
+        "color6": "#B7C8C5",
+        "color7": "#dde1de",
+        "color8": "#9a9d9b",
+        "color9": "#9E6751",
+        "color10": "#BB8D75",
+        "color11": "#95ADAE",
+        "color12": "#A8BCBB",
+        "color13": "#B1C0BD",
+        "color14": "#B7C8C5",
+        "color15": "#dde1de"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/wallpaper_156.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#16182d",
+        "foreground": "#c9def0",
+        "cursor": "#c9def0"
+    },
+    "colors": {
+        "color0": "#16182d",
+        "color1": "#259BE7",
+        "color2": "#03A7FD",
+        "color3": "#659FD6",
+        "color4": "#6EC2FC",
+        "color5": "#91A0B5",
+        "color6": "#93B0D4",
+        "color7": "#c9def0",
+        "color8": "#8c9ba8",
+        "color9": "#259BE7",
+        "color10": "#03A7FD",
+        "color11": "#659FD6",
+        "color12": "#6EC2FC",
+        "color13": "#91A0B5",
+        "color14": "#93B0D4",
+        "color15": "#c9def0"
+    }
+}

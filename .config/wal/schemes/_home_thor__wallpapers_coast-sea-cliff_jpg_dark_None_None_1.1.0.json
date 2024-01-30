@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/coast-sea-cliff.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#232424",
+        "foreground": "#dfddd2",
+        "cursor": "#dfddd2"
+    },
+    "colors": {
+        "color0": "#232424",
+        "color1": "#9E9068",
+        "color2": "#396986",
+        "color3": "#52758B",
+        "color4": "#6E8C96",
+        "color5": "#9BA9A3",
+        "color6": "#BEC1AE",
+        "color7": "#dfddd2",
+        "color8": "#9c9a93",
+        "color9": "#9E9068",
+        "color10": "#396986",
+        "color11": "#52758B",
+        "color12": "#6E8C96",
+        "color13": "#9BA9A3",
+        "color14": "#BEC1AE",
+        "color15": "#dfddd2"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/pinkish-mountains.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#10041e",
+        "foreground": "#ecbcc8",
+        "cursor": "#ecbcc8"
+    },
+    "colors": {
+        "color0": "#10041e",
+        "color1": "#9E4763",
+        "color2": "#B64871",
+        "color3": "#CD5B75",
+        "color4": "#B94E86",
+        "color5": "#C97580",
+        "color6": "#D36C97",
+        "color7": "#ecbcc8",
+        "color8": "#a5838c",
+        "color9": "#9E4763",
+        "color10": "#B64871",
+        "color11": "#CD5B75",
+        "color12": "#B94E86",
+        "color13": "#C97580",
+        "color14": "#D36C97",
+        "color15": "#ecbcc8"
+    }
+}

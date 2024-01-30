@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/liquid1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#05060E",
+        "foreground": "#97c9d5",
+        "cursor": "#97c9d5"
+    },
+    "colors": {
+        "color0": "#05060E",
+        "color1": "#9F261B",
+        "color2": "#DC5C24",
+        "color3": "#B74C44",
+        "color4": "#ECAC53",
+        "color5": "#40529B",
+        "color6": "#B164A2",
+        "color7": "#97c9d5",
+        "color8": "#698c95",
+        "color9": "#9F261B",
+        "color10": "#DC5C24",
+        "color11": "#B74C44",
+        "color12": "#ECAC53",
+        "color13": "#40529B",
+        "color14": "#B164A2",
+        "color15": "#97c9d5"
+    }
+}

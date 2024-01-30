@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/river_to_castle_theme_blue.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#010810",
+        "foreground": "#a7d9ea",
+        "cursor": "#a7d9ea"
+    },
+    "colors": {
+        "color0": "#010810",
+        "color1": "#046C90",
+        "color2": "#037197",
+        "color3": "#4F788D",
+        "color4": "#188AA6",
+        "color5": "#058BB2",
+        "color6": "#10A7CF",
+        "color7": "#a7d9ea",
+        "color8": "#7497a3",
+        "color9": "#046C90",
+        "color10": "#037197",
+        "color11": "#4F788D",
+        "color12": "#188AA6",
+        "color13": "#058BB2",
+        "color14": "#10A7CF",
+        "color15": "#a7d9ea"
+    }
+}

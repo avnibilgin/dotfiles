@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/winter-highway.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151a25",
+        "foreground": "#c6cbc1",
+        "cursor": "#c6cbc1"
+    },
+    "colors": {
+        "color0": "#151a25",
+        "color1": "#9D8A74",
+        "color2": "#3E7481",
+        "color3": "#4A7983",
+        "color4": "#558989",
+        "color5": "#6B948E",
+        "color6": "#78A398",
+        "color7": "#c6cbc1",
+        "color8": "#8a8e87",
+        "color9": "#9D8A74",
+        "color10": "#3E7481",
+        "color11": "#4A7983",
+        "color12": "#558989",
+        "color13": "#6B948E",
+        "color14": "#78A398",
+        "color15": "#c6cbc1"
+    }
+}

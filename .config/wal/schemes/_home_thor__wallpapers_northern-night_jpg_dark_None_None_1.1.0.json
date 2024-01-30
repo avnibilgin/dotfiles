@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/northern-night.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E0D0E",
+        "foreground": "#ece1cc",
+        "cursor": "#ece1cc"
+    },
+    "colors": {
+        "color0": "#0E0D0E",
+        "color1": "#335569",
+        "color2": "#575D5D",
+        "color3": "#956C49",
+        "color4": "#B3966D",
+        "color5": "#6D8690",
+        "color6": "#AEA593",
+        "color7": "#ece1cc",
+        "color8": "#a59d8e",
+        "color9": "#335569",
+        "color10": "#575D5D",
+        "color11": "#956C49",
+        "color12": "#B3966D",
+        "color13": "#6D8690",
+        "color14": "#AEA593",
+        "color15": "#ece1cc"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/london-street-at-christmas.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0604",
+        "foreground": "#e1c6a9",
+        "cursor": "#e1c6a9"
+    },
+    "colors": {
+        "color0": "#0b0604",
+        "color1": "#695D4F",
+        "color2": "#915B34",
+        "color3": "#B76739",
+        "color4": "#966F4F",
+        "color5": "#7B8378",
+        "color6": "#AB8D67",
+        "color7": "#e1c6a9",
+        "color8": "#9d8a76",
+        "color9": "#695D4F",
+        "color10": "#915B34",
+        "color11": "#B76739",
+        "color12": "#966F4F",
+        "color13": "#7B8378",
+        "color14": "#AB8D67",
+        "color15": "#e1c6a9"
+    }
+}

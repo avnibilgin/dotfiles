@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/mountains-peaks-rocks.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#110d0a",
+        "foreground": "#e5e5e8",
+        "cursor": "#e5e5e8"
+    },
+    "colors": {
+        "color0": "#110d0a",
+        "color1": "#6F7A86",
+        "color2": "#7A838E",
+        "color3": "#898E98",
+        "color4": "#9FA3AC",
+        "color5": "#BABCC4",
+        "color6": "#D7D6DA",
+        "color7": "#e5e5e8",
+        "color8": "#a0a0a2",
+        "color9": "#6F7A86",
+        "color10": "#7A838E",
+        "color11": "#898E98",
+        "color12": "#9FA3AC",
+        "color13": "#BABCC4",
+        "color14": "#D7D6DA",
+        "color15": "#e5e5e8"
+    }
+}

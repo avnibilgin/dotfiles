@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/bad-goisern.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#111010",
+        "foreground": "#d1cecf",
+        "cursor": "#d1cecf"
+    },
+    "colors": {
+        "color0": "#111010",
+        "color1": "#36688F",
+        "color2": "#4D779D",
+        "color3": "#3D82AC",
+        "color4": "#5986AE",
+        "color5": "#6A91B6",
+        "color6": "#739EC5",
+        "color7": "#d1cecf",
+        "color8": "#929090",
+        "color9": "#36688F",
+        "color10": "#4D779D",
+        "color11": "#3D82AC",
+        "color12": "#5986AE",
+        "color13": "#6A91B6",
+        "color14": "#739EC5",
+        "color15": "#d1cecf"
+    }
+}

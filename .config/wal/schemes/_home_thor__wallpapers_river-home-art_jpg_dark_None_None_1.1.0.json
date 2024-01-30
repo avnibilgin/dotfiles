@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/river-home-art.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0c18",
+        "foreground": "#d9cdd0",
+        "cursor": "#d9cdd0"
+    },
+    "colors": {
+        "color0": "#0b0c18",
+        "color1": "#4E5DA0",
+        "color2": "#3860C7",
+        "color3": "#4D72CC",
+        "color4": "#667BCE",
+        "color5": "#7582B7",
+        "color6": "#7286CF",
+        "color7": "#d9cdd0",
+        "color8": "#978f91",
+        "color9": "#4E5DA0",
+        "color10": "#3860C7",
+        "color11": "#4D72CC",
+        "color12": "#667BCE",
+        "color13": "#7582B7",
+        "color14": "#7286CF",
+        "color15": "#d9cdd0"
+    }
+}

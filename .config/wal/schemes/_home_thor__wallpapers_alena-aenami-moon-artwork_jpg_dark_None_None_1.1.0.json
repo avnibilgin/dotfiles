@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/alena-aenami-moon-artwork.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090914",
+        "foreground": "#d9979a",
+        "cursor": "#d9979a"
+    },
+    "colors": {
+        "color0": "#090914",
+        "color1": "#753541",
+        "color2": "#654049",
+        "color3": "#953243",
+        "color4": "#944544",
+        "color5": "#AB4C47",
+        "color6": "#AD6159",
+        "color7": "#d9979a",
+        "color8": "#97696b",
+        "color9": "#753541",
+        "color10": "#654049",
+        "color11": "#953243",
+        "color12": "#944544",
+        "color13": "#AB4C47",
+        "color14": "#AD6159",
+        "color15": "#d9979a"
+    }
+}

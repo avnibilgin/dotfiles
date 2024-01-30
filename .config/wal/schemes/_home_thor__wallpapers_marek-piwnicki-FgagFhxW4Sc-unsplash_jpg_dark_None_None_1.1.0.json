@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/marek-piwnicki-FgagFhxW4Sc-unsplash.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#060B0A",
+        "foreground": "#e0ddc7",
+        "cursor": "#e0ddc7"
+    },
+    "colors": {
+        "color0": "#060B0A",
+        "color1": "#586651",
+        "color2": "#847D50",
+        "color3": "#74885A",
+        "color4": "#A29D62",
+        "color5": "#C6B76B",
+        "color6": "#CDC76D",
+        "color7": "#e0ddc7",
+        "color8": "#9c9a8b",
+        "color9": "#586651",
+        "color10": "#847D50",
+        "color11": "#74885A",
+        "color12": "#A29D62",
+        "color13": "#C6B76B",
+        "color14": "#CDC76D",
+        "color15": "#e0ddc7"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/macro-leaf-photography.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0c18",
+        "foreground": "#e5bea6",
+        "cursor": "#e5bea6"
+    },
+    "colors": {
+        "color0": "#0a0c18",
+        "color1": "#3A4350",
+        "color2": "#4A4D54",
+        "color3": "#6E5D58",
+        "color4": "#98423C",
+        "color5": "#9C5C51",
+        "color6": "#E1654C",
+        "color7": "#e5bea6",
+        "color8": "#a08574",
+        "color9": "#3A4350",
+        "color10": "#4A4D54",
+        "color11": "#6E5D58",
+        "color12": "#98423C",
+        "color13": "#9C5C51",
+        "color14": "#E1654C",
+        "color15": "#e5bea6"
+    }
+}

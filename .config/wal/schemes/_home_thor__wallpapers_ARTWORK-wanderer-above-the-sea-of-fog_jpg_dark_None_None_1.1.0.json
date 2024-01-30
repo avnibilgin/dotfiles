@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/ARTWORK-wanderer-above-the-sea-of-fog.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a090c",
+        "foreground": "#dee2eb",
+        "cursor": "#dee2eb"
+    },
+    "colors": {
+        "color0": "#0a090c",
+        "color1": "#C4C5B7",
+        "color2": "#9CADC2",
+        "color3": "#B5BBCB",
+        "color4": "#BCC3D3",
+        "color5": "#BDCCE3",
+        "color6": "#C7CBD7",
+        "color7": "#dee2eb",
+        "color8": "#9b9ea4",
+        "color9": "#C4C5B7",
+        "color10": "#9CADC2",
+        "color11": "#B5BBCB",
+        "color12": "#BCC3D3",
+        "color13": "#BDCCE3",
+        "color14": "#C7CBD7",
+        "color15": "#dee2eb"
+    }
+}

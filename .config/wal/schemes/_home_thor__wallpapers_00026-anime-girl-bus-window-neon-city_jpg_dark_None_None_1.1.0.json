@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/00026-anime-girl-bus-window-neon-city.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#150f15",
+        "foreground": "#d4c8d3",
+        "cursor": "#d4c8d3"
+    },
+    "colors": {
+        "color0": "#150f15",
+        "color1": "#9C5B66",
+        "color2": "#635E97",
+        "color3": "#445CAE",
+        "color4": "#986598",
+        "color5": "#CD65AA",
+        "color6": "#86A0A5",
+        "color7": "#d4c8d3",
+        "color8": "#948c93",
+        "color9": "#9C5B66",
+        "color10": "#635E97",
+        "color11": "#445CAE",
+        "color12": "#986598",
+        "color13": "#CD65AA",
+        "color14": "#86A0A5",
+        "color15": "#d4c8d3"
+    }
+}

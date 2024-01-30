@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/tiger-sleeping.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0F130F",
+        "foreground": "#c9c2c1",
+        "cursor": "#c9c2c1"
+    },
+    "colors": {
+        "color0": "#0F130F",
+        "color1": "#996A60",
+        "color2": "#CD6D42",
+        "color3": "#AF8777",
+        "color4": "#E39561",
+        "color5": "#6A7287",
+        "color6": "#82808B",
+        "color7": "#c9c2c1",
+        "color8": "#8c8787",
+        "color9": "#996A60",
+        "color10": "#CD6D42",
+        "color11": "#AF8777",
+        "color12": "#E39561",
+        "color13": "#6A7287",
+        "color14": "#82808B",
+        "color15": "#c9c2c1"
+    }
+}

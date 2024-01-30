@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/road-marking-trees.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d100e",
+        "foreground": "#ced2d1",
+        "cursor": "#ced2d1"
+    },
+    "colors": {
+        "color0": "#0d100e",
+        "color1": "#3B4343",
+        "color2": "#565F5C",
+        "color3": "#777C7C",
+        "color4": "#708B44",
+        "color5": "#919F5B",
+        "color6": "#7A8488",
+        "color7": "#ced2d1",
+        "color8": "#909392",
+        "color9": "#3B4343",
+        "color10": "#565F5C",
+        "color11": "#777C7C",
+        "color12": "#708B44",
+        "color13": "#919F5B",
+        "color14": "#7A8488",
+        "color15": "#ced2d1"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/evening-landscape.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0C21",
+        "foreground": "#f0c6cd",
+        "cursor": "#f0c6cd"
+    },
+    "colors": {
+        "color0": "#0B0C21",
+        "color1": "#215493",
+        "color2": "#5B619F",
+        "color3": "#9F74AA",
+        "color4": "#D37DA8",
+        "color5": "#638BC2",
+        "color6": "#F58BA7",
+        "color7": "#f0c6cd",
+        "color8": "#a88a8f",
+        "color9": "#215493",
+        "color10": "#5B619F",
+        "color11": "#9F74AA",
+        "color12": "#D37DA8",
+        "color13": "#638BC2",
+        "color14": "#F58BA7",
+        "color15": "#f0c6cd"
+    }
+}

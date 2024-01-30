@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/forest-sunset-artwork.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#03142D",
+        "foreground": "#d8d2ce",
+        "cursor": "#d8d2ce"
+    },
+    "colors": {
+        "color0": "#03142D",
+        "color1": "#EDB078",
+        "color2": "#1F6E8B",
+        "color3": "#616F88",
+        "color4": "#2D94A8",
+        "color5": "#5AA5B1",
+        "color6": "#58BEC9",
+        "color7": "#d8d2ce",
+        "color8": "#979390",
+        "color9": "#EDB078",
+        "color10": "#1F6E8B",
+        "color11": "#616F88",
+        "color12": "#2D94A8",
+        "color13": "#5AA5B1",
+        "color14": "#58BEC9",
+        "color15": "#d8d2ce"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/rocks-stones-coast.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0a0b",
+        "foreground": "#d3d7d9",
+        "cursor": "#d3d7d9"
+    },
+    "colors": {
+        "color0": "#0d0a0b",
+        "color1": "#3E4145",
+        "color2": "#645F5D",
+        "color3": "#7F7F7E",
+        "color4": "#8D6B5D",
+        "color5": "#77898D",
+        "color6": "#9AA2A7",
+        "color7": "#d3d7d9",
+        "color8": "#939697",
+        "color9": "#3E4145",
+        "color10": "#645F5D",
+        "color11": "#7F7F7E",
+        "color12": "#8D6B5D",
+        "color13": "#77898D",
+        "color14": "#9AA2A7",
+        "color15": "#d3d7d9"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/rock-road-cliff.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#091418",
+        "foreground": "#d3d8d7",
+        "cursor": "#d3d8d7"
+    },
+    "colors": {
+        "color0": "#091418",
+        "color1": "#A68A7B",
+        "color2": "#AD9B8E",
+        "color3": "#C8A997",
+        "color4": "#CEBAAA",
+        "color5": "#D6C6B7",
+        "color6": "#E2CABB",
+        "color7": "#d3d8d7",
+        "color8": "#939796",
+        "color9": "#A68A7B",
+        "color10": "#AD9B8E",
+        "color11": "#C8A997",
+        "color12": "#CEBAAA",
+        "color13": "#D6C6B7",
+        "color14": "#E2CABB",
+        "color15": "#d3d8d7"
+    }
+}

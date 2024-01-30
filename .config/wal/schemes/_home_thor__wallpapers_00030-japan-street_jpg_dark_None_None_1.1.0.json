@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/00030-japan-street.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b090a",
+        "foreground": "#d8c2ab",
+        "cursor": "#d8c2ab"
+    },
+    "colors": {
+        "color0": "#0b090a",
+        "color1": "#3E4154",
+        "color2": "#4C4853",
+        "color3": "#6E5750",
+        "color4": "#A05A33",
+        "color5": "#966D52",
+        "color6": "#768376",
+        "color7": "#d8c2ab",
+        "color8": "#978777",
+        "color9": "#3E4154",
+        "color10": "#4C4853",
+        "color11": "#6E5750",
+        "color12": "#A05A33",
+        "color13": "#966D52",
+        "color14": "#768376",
+        "color15": "#d8c2ab"
+    }
+}

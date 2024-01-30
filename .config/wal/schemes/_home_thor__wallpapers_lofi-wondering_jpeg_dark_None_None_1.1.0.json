@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/lofi-wondering.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c1f36",
+        "foreground": "#bdbdc6",
+        "cursor": "#bdbdc6"
+    },
+    "colors": {
+        "color0": "#0c1f36",
+        "color1": "#3A66B1",
+        "color2": "#4C4EB4",
+        "color3": "#634FAE",
+        "color4": "#665ACA",
+        "color5": "#9D67D9",
+        "color6": "#B771D3",
+        "color7": "#bdbdc6",
+        "color8": "#84848a",
+        "color9": "#3A66B1",
+        "color10": "#4C4EB4",
+        "color11": "#634FAE",
+        "color12": "#665ACA",
+        "color13": "#9D67D9",
+        "color14": "#B771D3",
+        "color15": "#bdbdc6"
+    }
+}

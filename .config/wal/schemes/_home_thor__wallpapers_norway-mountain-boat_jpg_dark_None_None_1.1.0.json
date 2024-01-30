@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/norway-mountain-boat.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#07251E",
+        "foreground": "#c0e5ee",
+        "cursor": "#c0e5ee"
+    },
+    "colors": {
+        "color0": "#07251E",
+        "color1": "#4A7C86",
+        "color2": "#068B93",
+        "color3": "#27979B",
+        "color4": "#0492A7",
+        "color5": "#4E9C9F",
+        "color6": "#74D2E8",
+        "color7": "#c0e5ee",
+        "color8": "#86a0a6",
+        "color9": "#4A7C86",
+        "color10": "#068B93",
+        "color11": "#27979B",
+        "color12": "#0492A7",
+        "color13": "#4E9C9F",
+        "color14": "#74D2E8",
+        "color15": "#c0e5ee"
+    }
+}

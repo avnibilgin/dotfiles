@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/desert-overlooking-sea.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#181511",
+        "foreground": "#cacfdd",
+        "cursor": "#cacfdd"
+    },
+    "colors": {
+        "color0": "#181511",
+        "color1": "#7BA0C2",
+        "color2": "#B7A496",
+        "color3": "#97A1A4",
+        "color4": "#ACA9AE",
+        "color5": "#BDBBB5",
+        "color6": "#97AACD",
+        "color7": "#cacfdd",
+        "color8": "#8d909a",
+        "color9": "#7BA0C2",
+        "color10": "#B7A496",
+        "color11": "#97A1A4",
+        "color12": "#ACA9AE",
+        "color13": "#BDBBB5",
+        "color14": "#97AACD",
+        "color15": "#cacfdd"
+    }
+}

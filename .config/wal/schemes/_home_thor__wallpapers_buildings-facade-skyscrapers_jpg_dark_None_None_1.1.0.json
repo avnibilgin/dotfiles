@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/buildings-facade-skyscrapers.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#121212",
+        "foreground": "#c6c9c9",
+        "cursor": "#c6c9c9"
+    },
+    "colors": {
+        "color0": "#121212",
+        "color1": "#946D4C",
+        "color2": "#7E817D",
+        "color3": "#B78E6C",
+        "color4": "#6E7C84",
+        "color5": "#79868E",
+        "color6": "#8E9597",
+        "color7": "#c6c9c9",
+        "color8": "#8a8c8c",
+        "color9": "#946D4C",
+        "color10": "#7E817D",
+        "color11": "#B78E6C",
+        "color12": "#6E7C84",
+        "color13": "#79868E",
+        "color14": "#8E9597",
+        "color15": "#c6c9c9"
+    }
+}

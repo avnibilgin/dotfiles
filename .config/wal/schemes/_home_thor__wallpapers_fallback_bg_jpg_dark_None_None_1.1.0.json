@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/fallback_bg.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101217",
+        "foreground": "#c4c3c2",
+        "cursor": "#c4c3c2"
+    },
+    "colors": {
+        "color0": "#101217",
+        "color1": "#555E66",
+        "color2": "#9B694A",
+        "color3": "#7D8178",
+        "color4": "#C49969",
+        "color5": "#6A7885",
+        "color6": "#79858F",
+        "color7": "#c4c3c2",
+        "color8": "#898887",
+        "color9": "#555E66",
+        "color10": "#9B694A",
+        "color11": "#7D8178",
+        "color12": "#C49969",
+        "color13": "#6A7885",
+        "color14": "#79858F",
+        "color15": "#c4c3c2"
+    }
+}

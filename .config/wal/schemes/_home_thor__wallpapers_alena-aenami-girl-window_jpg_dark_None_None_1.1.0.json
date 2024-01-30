@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/alena-aenami-girl-window.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#07171D",
+        "foreground": "#98bdcd",
+        "cursor": "#98bdcd"
+    },
+    "colors": {
+        "color0": "#07171D",
+        "color1": "#CE6172",
+        "color2": "#046C8D",
+        "color3": "#19688E",
+        "color4": "#617499",
+        "color5": "#98729C",
+        "color6": "#E2769F",
+        "color7": "#98bdcd",
+        "color8": "#6a848f",
+        "color9": "#CE6172",
+        "color10": "#046C8D",
+        "color11": "#19688E",
+        "color12": "#617499",
+        "color13": "#98729C",
+        "color14": "#E2769F",
+        "color15": "#98bdcd"
+    }
+}

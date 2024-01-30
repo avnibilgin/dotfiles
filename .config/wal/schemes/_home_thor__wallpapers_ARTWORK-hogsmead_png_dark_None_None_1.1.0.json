@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/ARTWORK-hogsmead.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0d0f",
+        "foreground": "#acbfcd",
+        "cursor": "#acbfcd"
+    },
+    "colors": {
+        "color0": "#0c0d0f",
+        "color1": "#344960",
+        "color2": "#4C5867",
+        "color3": "#93665A",
+        "color4": "#1457A0",
+        "color5": "#0F6EBD",
+        "color6": "#56718F",
+        "color7": "#acbfcd",
+        "color8": "#78858f",
+        "color9": "#344960",
+        "color10": "#4C5867",
+        "color11": "#93665A",
+        "color12": "#1457A0",
+        "color13": "#0F6EBD",
+        "color14": "#56718F",
+        "color15": "#acbfcd"
+    }
+}

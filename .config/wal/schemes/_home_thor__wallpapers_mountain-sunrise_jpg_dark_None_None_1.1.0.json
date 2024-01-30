@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/mountain-sunrise.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#152436",
+        "foreground": "#f0e1cf",
+        "cursor": "#f0e1cf"
+    },
+    "colors": {
+        "color0": "#152436",
+        "color1": "#366786",
+        "color2": "#5D7388",
+        "color3": "#937886",
+        "color4": "#6C879B",
+        "color5": "#A5949B",
+        "color6": "#D9A99C",
+        "color7": "#f0e1cf",
+        "color8": "#a89d90",
+        "color9": "#366786",
+        "color10": "#5D7388",
+        "color11": "#937886",
+        "color12": "#6C879B",
+        "color13": "#A5949B",
+        "color14": "#D9A99C",
+        "color15": "#f0e1cf"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/0005-girl.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#12120d",
+        "foreground": "#d7d8d3",
+        "cursor": "#d7d8d3"
+    },
+    "colors": {
+        "color0": "#12120d",
+        "color1": "#985440",
+        "color2": "#966956",
+        "color3": "#A48A71",
+        "color4": "#6B7E80",
+        "color5": "#74888D",
+        "color6": "#9CA19B",
+        "color7": "#d7d8d3",
+        "color8": "#969793",
+        "color9": "#985440",
+        "color10": "#966956",
+        "color11": "#A48A71",
+        "color12": "#6B7E80",
+        "color13": "#74888D",
+        "color14": "#9CA19B",
+        "color15": "#d7d8d3"
+    }
+}

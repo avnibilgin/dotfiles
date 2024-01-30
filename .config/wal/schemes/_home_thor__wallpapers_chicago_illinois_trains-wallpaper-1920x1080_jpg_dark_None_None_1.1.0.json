@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/chicago_illinois_trains-wallpaper-1920x1080.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#120d16",
+        "foreground": "#b5d7df",
+        "cursor": "#b5d7df"
+    },
+    "colors": {
+        "color0": "#120d16",
+        "color1": "#52566A",
+        "color2": "#AE8157",
+        "color3": "#3D5F8A",
+        "color4": "#5C718B",
+        "color5": "#6B8DA3",
+        "color6": "#68AEC8",
+        "color7": "#b5d7df",
+        "color8": "#7e969c",
+        "color9": "#52566A",
+        "color10": "#AE8157",
+        "color11": "#3D5F8A",
+        "color12": "#5C718B",
+        "color13": "#6B8DA3",
+        "color14": "#68AEC8",
+        "color15": "#b5d7df"
+    }
+}

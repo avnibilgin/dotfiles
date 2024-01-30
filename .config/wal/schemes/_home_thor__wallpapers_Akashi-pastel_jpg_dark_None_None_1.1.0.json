@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/Akashi-pastel.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#13171c",
+        "foreground": "#e7e6e8",
+        "cursor": "#e7e6e8"
+    },
+    "colors": {
+        "color0": "#13171c",
+        "color1": "#A59BA1",
+        "color2": "#BEBDBB",
+        "color3": "#DDA7AC",
+        "color4": "#E6B5C9",
+        "color5": "#A2DBEF",
+        "color6": "#F4D0D5",
+        "color7": "#e7e6e8",
+        "color8": "#a1a1a2",
+        "color9": "#A59BA1",
+        "color10": "#BEBDBB",
+        "color11": "#DDA7AC",
+        "color12": "#E6B5C9",
+        "color13": "#A2DBEF",
+        "color14": "#F4D0D5",
+        "color15": "#e7e6e8"
+    }
+}

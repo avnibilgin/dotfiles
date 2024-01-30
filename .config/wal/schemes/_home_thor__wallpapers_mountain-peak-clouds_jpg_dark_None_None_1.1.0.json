@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/mountain-peak-clouds.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#010916",
+        "foreground": "#cfdbdd",
+        "cursor": "#cfdbdd"
+    },
+    "colors": {
+        "color0": "#010916",
+        "color1": "#6992A2",
+        "color2": "#79AFC5",
+        "color3": "#93A9AC",
+        "color4": "#8FACB2",
+        "color5": "#AFC1BE",
+        "color6": "#93BAC8",
+        "color7": "#cfdbdd",
+        "color8": "#90999a",
+        "color9": "#6992A2",
+        "color10": "#79AFC5",
+        "color11": "#93A9AC",
+        "color12": "#8FACB2",
+        "color13": "#AFC1BE",
+        "color14": "#93BAC8",
+        "color15": "#cfdbdd"
+    }
+}

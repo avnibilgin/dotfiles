@@ -1,0 +1,24 @@
+wallpaper: "/home/thor/.wallpapers/0057.jpg"
+
+special:
+    background: "#0E1716"
+    foreground: "#afbbe5"
+    cursor: "#afbbe5"
+
+colors:
+    color0: "#0E1716"
+    color1: "#284B91"
+    color2: "#2A509B"
+    color3: "#3057A9"
+    color4: "#4F67AF"
+    color5: "#5473C9"
+    color6: "#8A739D"
+    color7: "#afbbe5"
+    color8: "#7a82a0"
+    color9: "#284B91"
+    color10: "#2A509B"
+    color11: "#3057A9"
+    color12: "#4F67AF"
+    color13: "#5473C9"
+    color14: "#8A739D"
+    color15: "#afbbe5"

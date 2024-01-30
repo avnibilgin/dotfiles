@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/sunset-bear-deer.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#120e22",
+        "foreground": "#f4e1cf",
+        "cursor": "#f4e1cf"
+    },
+    "colors": {
+        "color0": "#120e22",
+        "color1": "#423F80",
+        "color2": "#625991",
+        "color3": "#957295",
+        "color4": "#D17B82",
+        "color5": "#A68BAD",
+        "color6": "#DEA39B",
+        "color7": "#f4e1cf",
+        "color8": "#aa9d90",
+        "color9": "#423F80",
+        "color10": "#625991",
+        "color11": "#957295",
+        "color12": "#D17B82",
+        "color13": "#A68BAD",
+        "color14": "#DEA39B",
+        "color15": "#f4e1cf"
+    }
+}

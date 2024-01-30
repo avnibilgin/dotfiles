@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/ARTWORK-christianas-world.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#221c0f",
+        "foreground": "#dad3cb",
+        "cursor": "#dad3cb"
+    },
+    "colors": {
+        "color0": "#221c0f",
+        "color1": "#98756A",
+        "color2": "#7D816F",
+        "color3": "#958C69",
+        "color4": "#A19468",
+        "color5": "#C2AA79",
+        "color6": "#AEAC9F",
+        "color7": "#dad3cb",
+        "color8": "#98938e",
+        "color9": "#98756A",
+        "color10": "#7D816F",
+        "color11": "#958C69",
+        "color12": "#A19468",
+        "color13": "#C2AA79",
+        "color14": "#AEAC9F",
+        "color15": "#dad3cb"
+    }
+}

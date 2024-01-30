@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/cyberpunk-robot.png",
+    "alpha": "100",
+    "special": {
+        "background": "#071928",
+        "foreground": "#9dc8d2",
+        "cursor": "#9dc8d2"
+    },
+    "colors": {
+        "color0": "#071928",
+        "color1": "#9A1134",
+        "color2": "#A0224F",
+        "color3": "#CE2758",
+        "color4": "#C9946A",
+        "color5": "#49668E",
+        "color6": "#CE579A",
+        "color7": "#9dc8d2",
+        "color8": "#6d8c93",
+        "color9": "#9A1134",
+        "color10": "#A0224F",
+        "color11": "#CE2758",
+        "color12": "#C9946A",
+        "color13": "#49668E",
+        "color14": "#CE579A",
+        "color15": "#9dc8d2"
+    }
+}

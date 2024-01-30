@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/nordwall3.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#08121B",
+        "foreground": "#f09faa",
+        "cursor": "#f09faa"
+    },
+    "colors": {
+        "color0": "#08121B",
+        "color1": "#5B3A4B",
+        "color2": "#374250",
+        "color3": "#634656",
+        "color4": "#9A3C59",
+        "color5": "#DF3D63",
+        "color6": "#955364",
+        "color7": "#f09faa",
+        "color8": "#a86f76",
+        "color9": "#5B3A4B",
+        "color10": "#374250",
+        "color11": "#634656",
+        "color12": "#9A3C59",
+        "color13": "#DF3D63",
+        "color14": "#955364",
+        "color15": "#f09faa"
+    }
+}

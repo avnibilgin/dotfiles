@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/00024-anime-street-at-night.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#061A2B",
+        "foreground": "#a7bfc4",
+        "cursor": "#a7bfc4"
+    },
+    "colors": {
+        "color0": "#061A2B",
+        "color1": "#114869",
+        "color2": "#2C546D",
+        "color3": "#566865",
+        "color4": "#858769",
+        "color5": "#2A5F90",
+        "color6": "#4D6A96",
+        "color7": "#a7bfc4",
+        "color8": "#748589",
+        "color9": "#114869",
+        "color10": "#2C546D",
+        "color11": "#566865",
+        "color12": "#858769",
+        "color13": "#2A5F90",
+        "color14": "#4D6A96",
+        "color15": "#a7bfc4"
+    }
+}

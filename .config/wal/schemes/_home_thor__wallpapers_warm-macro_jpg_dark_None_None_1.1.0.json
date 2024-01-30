@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/warm-macro.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0704",
+        "foreground": "#e5c5a1",
+        "cursor": "#e5c5a1"
+    },
+    "colors": {
+        "color0": "#0b0704",
+        "color1": "#705548",
+        "color2": "#8E4E2D",
+        "color3": "#985C3F",
+        "color4": "#AB6231",
+        "color5": "#CC762F",
+        "color6": "#D78B38",
+        "color7": "#e5c5a1",
+        "color8": "#a08970",
+        "color9": "#705548",
+        "color10": "#8E4E2D",
+        "color11": "#985C3F",
+        "color12": "#AB6231",
+        "color13": "#CC762F",
+        "color14": "#D78B38",
+        "color15": "#e5c5a1"
+    }
+}

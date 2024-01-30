@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/mountains-rocks-landscape.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0915",
+        "foreground": "#c8ccd8",
+        "cursor": "#c8ccd8"
+    },
+    "colors": {
+        "color0": "#0a0915",
+        "color1": "#6C9FC5",
+        "color2": "#B1A5B5",
+        "color3": "#D3AFAD",
+        "color4": "#E4BAA9",
+        "color5": "#DAC5B6",
+        "color6": "#E8CDB4",
+        "color7": "#c8ccd8",
+        "color8": "#8c8e97",
+        "color9": "#6C9FC5",
+        "color10": "#B1A5B5",
+        "color11": "#D3AFAD",
+        "color12": "#E4BAA9",
+        "color13": "#DAC5B6",
+        "color14": "#E8CDB4",
+        "color15": "#c8ccd8"
+    }
+}

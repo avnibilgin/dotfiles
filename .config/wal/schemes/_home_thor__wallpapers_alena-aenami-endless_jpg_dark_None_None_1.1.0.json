@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/alena-aenami-endless.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151930",
+        "foreground": "#ebc9dd",
+        "cursor": "#ebc9dd"
+    },
+    "colors": {
+        "color0": "#151930",
+        "color1": "#3198F3",
+        "color2": "#5F9EF3",
+        "color3": "#A98CB1",
+        "color4": "#E094B5",
+        "color5": "#908BD3",
+        "color6": "#9C9ADF",
+        "color7": "#ebc9dd",
+        "color8": "#a48c9a",
+        "color9": "#3198F3",
+        "color10": "#5F9EF3",
+        "color11": "#A98CB1",
+        "color12": "#E094B5",
+        "color13": "#908BD3",
+        "color14": "#9C9ADF",
+        "color15": "#ebc9dd"
+    }
+}

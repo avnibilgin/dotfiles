@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/ARTWORK-echo-and-narcassias.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#201c0b",
+        "foreground": "#ded4ca",
+        "cursor": "#ded4ca"
+    },
+    "colors": {
+        "color0": "#201c0b",
+        "color1": "#936631",
+        "color2": "#8F7551",
+        "color3": "#C96742",
+        "color4": "#7A8759",
+        "color5": "#A18D61",
+        "color6": "#CCA161",
+        "color7": "#ded4ca",
+        "color8": "#9b948d",
+        "color9": "#936631",
+        "color10": "#8F7551",
+        "color11": "#C96742",
+        "color12": "#7A8759",
+        "color13": "#A18D61",
+        "color14": "#CCA161",
+        "color15": "#ded4ca"
+    }
+}

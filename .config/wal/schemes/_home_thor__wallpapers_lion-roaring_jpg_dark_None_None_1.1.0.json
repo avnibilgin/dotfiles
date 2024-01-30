@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/lion-roaring.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0a0a",
+        "foreground": "#e7e7e7",
+        "cursor": "#e7e7e7"
+    },
+    "colors": {
+        "color0": "#0a0a0a",
+        "color1": "#80807F",
+        "color2": "#8F8F8F",
+        "color3": "#A09FA0",
+        "color4": "#AFAFAF",
+        "color5": "#C0BFBF",
+        "color6": "#CDCDCD",
+        "color7": "#e7e7e7",
+        "color8": "#a1a1a1",
+        "color9": "#80807F",
+        "color10": "#8F8F8F",
+        "color11": "#A09FA0",
+        "color12": "#AFAFAF",
+        "color13": "#C0BFBF",
+        "color14": "#CDCDCD",
+        "color15": "#e7e7e7"
+    }
+}

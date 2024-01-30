@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/tram-in-the-night-city.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0A16",
+        "foreground": "#87ccd0",
+        "cursor": "#87ccd0"
+    },
+    "colors": {
+        "color0": "#0D0A16",
+        "color1": "#503250",
+        "color2": "#1E496F",
+        "color3": "#554F6A",
+        "color4": "#BE282A",
+        "color5": "#C9806C",
+        "color6": "#2D648E",
+        "color7": "#87ccd0",
+        "color8": "#5e8e91",
+        "color9": "#503250",
+        "color10": "#1E496F",
+        "color11": "#554F6A",
+        "color12": "#BE282A",
+        "color13": "#C9806C",
+        "color14": "#2D648E",
+        "color15": "#87ccd0"
+    }
+}

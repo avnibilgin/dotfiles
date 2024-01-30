@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/alena-aenami-eternity.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A121E",
+        "foreground": "#a8c6df",
+        "cursor": "#a8c6df"
+    },
+    "colors": {
+        "color0": "#0A121E",
+        "color1": "#26496F",
+        "color2": "#A13C6D",
+        "color3": "#255E9A",
+        "color4": "#4E6BA4",
+        "color5": "#AE6498",
+        "color6": "#449AC6",
+        "color7": "#a8c6df",
+        "color8": "#758a9c",
+        "color9": "#26496F",
+        "color10": "#A13C6D",
+        "color11": "#255E9A",
+        "color12": "#4E6BA4",
+        "color13": "#AE6498",
+        "color14": "#449AC6",
+        "color15": "#a8c6df"
+    }
+}

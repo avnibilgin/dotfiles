@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/0001-ilya-kuvshinov.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#12131b",
+        "foreground": "#b7c8d7",
+        "cursor": "#b7c8d7"
+    },
+    "colors": {
+        "color0": "#12131b",
+        "color1": "#6D90B4",
+        "color2": "#7EA0C1",
+        "color3": "#809FBF",
+        "color4": "#8EBABA",
+        "color5": "#93C1BE",
+        "color6": "#809FC1",
+        "color7": "#b7c8d7",
+        "color8": "#808c96",
+        "color9": "#6D90B4",
+        "color10": "#7EA0C1",
+        "color11": "#809FBF",
+        "color12": "#8EBABA",
+        "color13": "#93C1BE",
+        "color14": "#809FC1",
+        "color15": "#b7c8d7"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/city_top_view.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e0d12",
+        "foreground": "#c6dfe6",
+        "cursor": "#c6dfe6"
+    },
+    "colors": {
+        "color0": "#0e0d12",
+        "color1": "#12748B",
+        "color2": "#407496",
+        "color3": "#2191A6",
+        "color4": "#59A5B4",
+        "color5": "#64B6CA",
+        "color6": "#A8BDAA",
+        "color7": "#c6dfe6",
+        "color8": "#8a9ca1",
+        "color9": "#12748B",
+        "color10": "#407496",
+        "color11": "#2191A6",
+        "color12": "#59A5B4",
+        "color13": "#64B6CA",
+        "color14": "#A8BDAA",
+        "color15": "#c6dfe6"
+    }
+}

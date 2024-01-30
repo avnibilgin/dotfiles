@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/japan-house-anime.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0E0F",
+        "foreground": "#a9c7d2",
+        "cursor": "#a9c7d2"
+    },
+    "colors": {
+        "color0": "#0D0E0F",
+        "color1": "#2C3B45",
+        "color2": "#32505A",
+        "color3": "#575560",
+        "color4": "#93585B",
+        "color5": "#48718A",
+        "color6": "#9D7487",
+        "color7": "#a9c7d2",
+        "color8": "#768b93",
+        "color9": "#2C3B45",
+        "color10": "#32505A",
+        "color11": "#575560",
+        "color12": "#93585B",
+        "color13": "#48718A",
+        "color14": "#9D7487",
+        "color15": "#a9c7d2"
+    }
+}

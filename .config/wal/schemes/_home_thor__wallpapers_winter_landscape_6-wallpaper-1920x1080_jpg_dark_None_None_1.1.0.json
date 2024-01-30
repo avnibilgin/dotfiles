@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/winter_landscape_6-wallpaper-1920x1080.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#131b3a",
+        "foreground": "#dcd2db",
+        "cursor": "#dcd2db"
+    },
+    "colors": {
+        "color0": "#131b3a",
+        "color1": "#7585B5",
+        "color2": "#6E8ACC",
+        "color3": "#9C93B2",
+        "color4": "#93A1CE",
+        "color5": "#AFB2D1",
+        "color6": "#CDBAC2",
+        "color7": "#dcd2db",
+        "color8": "#9a9399",
+        "color9": "#7585B5",
+        "color10": "#6E8ACC",
+        "color11": "#9C93B2",
+        "color12": "#93A1CE",
+        "color13": "#AFB2D1",
+        "color14": "#CDBAC2",
+        "color15": "#dcd2db"
+    }
+}

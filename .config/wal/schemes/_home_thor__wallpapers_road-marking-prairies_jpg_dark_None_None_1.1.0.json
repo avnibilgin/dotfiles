@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/road-marking-prairies.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#150f13",
+        "foreground": "#d6d7d9",
+        "cursor": "#d6d7d9"
+    },
+    "colors": {
+        "color0": "#150f13",
+        "color1": "#8C5B4A",
+        "color2": "#707E84",
+        "color3": "#768E9B",
+        "color4": "#95A4B0",
+        "color5": "#96A6B1",
+        "color6": "#B4BAC3",
+        "color7": "#d6d7d9",
+        "color8": "#959697",
+        "color9": "#8C5B4A",
+        "color10": "#707E84",
+        "color11": "#768E9B",
+        "color12": "#95A4B0",
+        "color13": "#96A6B1",
+        "color14": "#B4BAC3",
+        "color15": "#d6d7d9"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/wet-road-on-rainy-night.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0309",
+        "foreground": "#dbd0d4",
+        "cursor": "#dbd0d4"
+    },
+    "colors": {
+        "color0": "#0c0309",
+        "color1": "#4C486D",
+        "color2": "#B34139",
+        "color3": "#E8A05B",
+        "color4": "#37609D",
+        "color5": "#A86998",
+        "color6": "#1DC9E3",
+        "color7": "#dbd0d4",
+        "color8": "#999194",
+        "color9": "#4C486D",
+        "color10": "#B34139",
+        "color11": "#E8A05B",
+        "color12": "#37609D",
+        "color13": "#A86998",
+        "color14": "#1DC9E3",
+        "color15": "#dbd0d4"
+    }
+}

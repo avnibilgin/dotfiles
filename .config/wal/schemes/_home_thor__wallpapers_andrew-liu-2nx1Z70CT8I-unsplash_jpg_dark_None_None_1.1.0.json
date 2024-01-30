@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/andrew-liu-2nx1Z70CT8I-unsplash.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0c0c",
+        "foreground": "#e6e7e7",
+        "cursor": "#e6e7e7"
+    },
+    "colors": {
+        "color0": "#0c0c0c",
+        "color1": "#7E8281",
+        "color2": "#909090",
+        "color3": "#9FA0A0",
+        "color4": "#B1B1B1",
+        "color5": "#BFC0C0",
+        "color6": "#D0D0D0",
+        "color7": "#e6e7e7",
+        "color8": "#a1a1a1",
+        "color9": "#7E8281",
+        "color10": "#909090",
+        "color11": "#9FA0A0",
+        "color12": "#B1B1B1",
+        "color13": "#BFC0C0",
+        "color14": "#D0D0D0",
+        "color15": "#e6e7e7"
+    }
+}

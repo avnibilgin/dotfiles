@@ -1,0 +1,21 @@
+set $wallpaper /home/thor/.wallpapers/0057.jpg
+
+set $background #0E1716
+set $foreground #afbbe5
+
+set $color0 #0E1716
+set $color1 #284B91
+set $color2 #2A509B
+set $color3 #3057A9
+set $color4 #4F67AF
+set $color5 #5473C9
+set $color6 #8A739D
+set $color7 #afbbe5
+set $color8 #7a82a0
+set $color9 #284B91
+set $color10 #2A509B
+set $color11 #3057A9
+set $color12 #4F67AF
+set $color13 #5473C9
+set $color14 #8A739D
+set $color15 #afbbe5

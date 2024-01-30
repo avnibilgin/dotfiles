@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/road-night-lights.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#07070E",
+        "foreground": "#e7dcd3",
+        "cursor": "#e7dcd3"
+    },
+    "colors": {
+        "color0": "#07070E",
+        "color1": "#4E4E55",
+        "color2": "#676567",
+        "color3": "#92695C",
+        "color4": "#A38B75",
+        "color5": "#6E7C86",
+        "color6": "#A49A90",
+        "color7": "#e7dcd3",
+        "color8": "#a19a93",
+        "color9": "#4E4E55",
+        "color10": "#676567",
+        "color11": "#92695C",
+        "color12": "#A38B75",
+        "color13": "#6E7C86",
+        "color14": "#A49A90",
+        "color15": "#e7dcd3"
+    }
+}

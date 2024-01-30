@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/alena-aenami-sky-sunset.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#060B12",
+        "foreground": "#e4cea3",
+        "cursor": "#e4cea3"
+    },
+    "colors": {
+        "color0": "#060B12",
+        "color1": "#595B6A",
+        "color2": "#6E6975",
+        "color3": "#B83749",
+        "color4": "#8E6B77",
+        "color5": "#A16170",
+        "color6": "#DD6372",
+        "color7": "#e4cea3",
+        "color8": "#9f9072",
+        "color9": "#595B6A",
+        "color10": "#6E6975",
+        "color11": "#B83749",
+        "color12": "#8E6B77",
+        "color13": "#A16170",
+        "color14": "#DD6372",
+        "color15": "#e4cea3"
+    }
+}

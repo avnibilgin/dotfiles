@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/path-forest-wooden.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0f10",
+        "foreground": "#c5bfab",
+        "cursor": "#c5bfab"
+    },
+    "colors": {
+        "color0": "#0c0f10",
+        "color1": "#414137",
+        "color2": "#4B4B36",
+        "color3": "#6A5A39",
+        "color4": "#4C5547",
+        "color5": "#696A52",
+        "color6": "#8E7150",
+        "color7": "#c5bfab",
+        "color8": "#898577",
+        "color9": "#414137",
+        "color10": "#4B4B36",
+        "color11": "#6A5A39",
+        "color12": "#4C5547",
+        "color13": "#696A52",
+        "color14": "#8E7150",
+        "color15": "#c5bfab"
+    }
+}

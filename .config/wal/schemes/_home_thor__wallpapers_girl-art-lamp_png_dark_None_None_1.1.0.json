@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/girl-art-lamp.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0C0C15",
+        "foreground": "#e4c6c3",
+        "cursor": "#e4c6c3"
+    },
+    "colors": {
+        "color0": "#0C0C15",
+        "color1": "#936A74",
+        "color2": "#E65342",
+        "color3": "#D7936A",
+        "color4": "#777684",
+        "color5": "#987A84",
+        "color6": "#A29297",
+        "color7": "#e4c6c3",
+        "color8": "#9f8a88",
+        "color9": "#936A74",
+        "color10": "#E65342",
+        "color11": "#D7936A",
+        "color12": "#777684",
+        "color13": "#987A84",
+        "color14": "#A29297",
+        "color15": "#e4c6c3"
+    }
+}

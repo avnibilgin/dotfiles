@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/footbridge-in-the-fall-forest.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0A0F",
+        "foreground": "#e3c9a6",
+        "cursor": "#e3c9a6"
+    },
+    "colors": {
+        "color0": "#0B0A0F",
+        "color1": "#625C55",
+        "color2": "#A7492C",
+        "color3": "#A24E33",
+        "color4": "#966D53",
+        "color5": "#7E8176",
+        "color6": "#A48D68",
+        "color7": "#e3c9a6",
+        "color8": "#9e8c74",
+        "color9": "#625C55",
+        "color10": "#A7492C",
+        "color11": "#A24E33",
+        "color12": "#966D53",
+        "color13": "#7E8176",
+        "color14": "#A48D68",
+        "color15": "#e3c9a6"
+    }
+}

@@ -1,0 +1,3 @@
+                "months": "<span color='#5473C9'><b>{}</b></span>",
+                "weekdays": "<span color='#8A739D'><b>{}</b></span>",
+                "today": "<span color='#5473C9'><b>{}</b></span>"

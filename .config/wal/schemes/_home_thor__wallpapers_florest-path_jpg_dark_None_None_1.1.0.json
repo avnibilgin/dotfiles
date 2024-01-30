@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/florest-path.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#12191a",
+        "foreground": "#c5c7c2",
+        "cursor": "#c5c7c2"
+    },
+    "colors": {
+        "color0": "#12191a",
+        "color1": "#6E746A",
+        "color2": "#847B78",
+        "color3": "#62813E",
+        "color4": "#78866D",
+        "color5": "#9B8C3E",
+        "color6": "#889276",
+        "color7": "#c5c7c2",
+        "color8": "#898b87",
+        "color9": "#6E746A",
+        "color10": "#847B78",
+        "color11": "#62813E",
+        "color12": "#78866D",
+        "color13": "#9B8C3E",
+        "color14": "#889276",
+        "color15": "#c5c7c2"
+    }
+}

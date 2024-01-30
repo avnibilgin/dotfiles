@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/GENERAL-black-sea.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#060606",
+        "foreground": "#a9a9a9",
+        "cursor": "#a9a9a9"
+    },
+    "colors": {
+        "color0": "#060606",
+        "color1": "#2B2B2B",
+        "color2": "#333333",
+        "color3": "#3B3B3B",
+        "color4": "#434343",
+        "color5": "#4B4B4B",
+        "color6": "#545454",
+        "color7": "#a9a9a9",
+        "color8": "#767676",
+        "color9": "#2B2B2B",
+        "color10": "#333333",
+        "color11": "#3B3B3B",
+        "color12": "#434343",
+        "color13": "#4B4B4B",
+        "color14": "#545454",
+        "color15": "#a9a9a9"
+    }
+}

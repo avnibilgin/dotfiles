@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/lapland-winter-river.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1c1f3d",
+        "foreground": "#cfdaf6",
+        "cursor": "#cfdaf6"
+    },
+    "colors": {
+        "color0": "#1c1f3d",
+        "color1": "#7190DC",
+        "color2": "#9385D9",
+        "color3": "#AD8DD8",
+        "color4": "#9BB1F2",
+        "color5": "#DC9FD7",
+        "color6": "#9EC1FD",
+        "color7": "#cfdaf6",
+        "color8": "#9098ac",
+        "color9": "#7190DC",
+        "color10": "#9385D9",
+        "color11": "#AD8DD8",
+        "color12": "#9BB1F2",
+        "color13": "#DC9FD7",
+        "color14": "#9EC1FD",
+        "color15": "#cfdaf6"
+    }
+}

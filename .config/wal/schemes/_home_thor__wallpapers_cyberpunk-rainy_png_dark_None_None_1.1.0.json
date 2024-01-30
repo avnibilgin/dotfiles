@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/cyberpunk-rainy.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0A1D24",
+        "foreground": "#9dcbd1",
+        "cursor": "#9dcbd1"
+    },
+    "colors": {
+        "color0": "#0A1D24",
+        "color1": "#55675E",
+        "color2": "#9E5534",
+        "color3": "#6F886D",
+        "color4": "#BAAA3E",
+        "color5": "#345ABA",
+        "color6": "#9F678B",
+        "color7": "#9dcbd1",
+        "color8": "#6d8e92",
+        "color9": "#55675E",
+        "color10": "#9E5534",
+        "color11": "#6F886D",
+        "color12": "#BAAA3E",
+        "color13": "#345ABA",
+        "color14": "#9F678B",
+        "color15": "#9dcbd1"
+    }
+}

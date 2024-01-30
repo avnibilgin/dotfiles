@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/painting-girl-rain-umbrella.png",
+    "alpha": "100",
+    "special": {
+        "background": "#151520",
+        "foreground": "#d9d7d2",
+        "cursor": "#d9d7d2"
+    },
+    "colors": {
+        "color0": "#151520",
+        "color1": "#5FB36D",
+        "color2": "#94867B",
+        "color3": "#487986",
+        "color4": "#5F8E90",
+        "color5": "#59A5AA",
+        "color6": "#A19B8E",
+        "color7": "#d9d7d2",
+        "color8": "#979693",
+        "color9": "#5FB36D",
+        "color10": "#94867B",
+        "color11": "#487986",
+        "color12": "#5F8E90",
+        "color13": "#59A5AA",
+        "color14": "#A19B8E",
+        "color15": "#d9d7d2"
+    }
+}

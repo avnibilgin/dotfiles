@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/beach-rocks-sea.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0D10",
+        "foreground": "#c7c7d6",
+        "cursor": "#c7c7d6"
+    },
+    "colors": {
+        "color0": "#0D0D10",
+        "color1": "#5F6380",
+        "color2": "#73748E",
+        "color3": "#807F95",
+        "color4": "#7F809C",
+        "color5": "#82839D",
+        "color6": "#8C8DAA",
+        "color7": "#c7c7d6",
+        "color8": "#8b8b95",
+        "color9": "#5F6380",
+        "color10": "#73748E",
+        "color11": "#807F95",
+        "color12": "#7F809C",
+        "color13": "#82839D",
+        "color14": "#8C8DAA",
+        "color15": "#c7c7d6"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/green_sea.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#030C0E",
+        "foreground": "#bfd6d1",
+        "cursor": "#bfd6d1"
+    },
+    "colors": {
+        "color0": "#030C0E",
+        "color1": "#28504C",
+        "color2": "#1E6B61",
+        "color3": "#496F6F",
+        "color4": "#278E72",
+        "color5": "#427788",
+        "color6": "#4CBFA4",
+        "color7": "#bfd6d1",
+        "color8": "#859592",
+        "color9": "#28504C",
+        "color10": "#1E6B61",
+        "color11": "#496F6F",
+        "color12": "#278E72",
+        "color13": "#427788",
+        "color14": "#4CBFA4",
+        "color15": "#bfd6d1"
+    }
+}

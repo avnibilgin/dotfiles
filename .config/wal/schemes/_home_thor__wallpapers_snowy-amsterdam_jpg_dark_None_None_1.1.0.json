@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/snowy-amsterdam.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101218",
+        "foreground": "#d8dce5",
+        "cursor": "#d8dce5"
+    },
+    "colors": {
+        "color0": "#101218",
+        "color1": "#8D95A9",
+        "color2": "#979EAF",
+        "color3": "#D6B6A1",
+        "color4": "#9EA9C1",
+        "color5": "#B0B8CB",
+        "color6": "#BBC4D6",
+        "color7": "#d8dce5",
+        "color8": "#979aa0",
+        "color9": "#8D95A9",
+        "color10": "#979EAF",
+        "color11": "#D6B6A1",
+        "color12": "#9EA9C1",
+        "color13": "#B0B8CB",
+        "color14": "#BBC4D6",
+        "color15": "#d8dce5"
+    }
+}

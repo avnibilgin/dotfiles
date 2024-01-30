@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/alena-aenami-cold.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D1022",
+        "foreground": "#edbdcc",
+        "cursor": "#edbdcc"
+    },
+    "colors": {
+        "color0": "#0D1022",
+        "color1": "#5067C4",
+        "color2": "#9376B5",
+        "color3": "#A66BA5",
+        "color4": "#E070A0",
+        "color5": "#9B75C9",
+        "color6": "#7382DF",
+        "color7": "#edbdcc",
+        "color8": "#a5848e",
+        "color9": "#5067C4",
+        "color10": "#9376B5",
+        "color11": "#A66BA5",
+        "color12": "#E070A0",
+        "color13": "#9B75C9",
+        "color14": "#7382DF",
+        "color15": "#edbdcc"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/backiee-38896-landscape.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0c09",
+        "foreground": "#c4cba1",
+        "cursor": "#c4cba1"
+    },
+    "colors": {
+        "color0": "#0a0c09",
+        "color1": "#465735",
+        "color2": "#556735",
+        "color3": "#57664B",
+        "color4": "#546F48",
+        "color5": "#748738",
+        "color6": "#6F8A50",
+        "color7": "#c4cba1",
+        "color8": "#898e70",
+        "color9": "#465735",
+        "color10": "#556735",
+        "color11": "#57664B",
+        "color12": "#546F48",
+        "color13": "#748738",
+        "color14": "#6F8A50",
+        "color15": "#c4cba1"
+    }
+}

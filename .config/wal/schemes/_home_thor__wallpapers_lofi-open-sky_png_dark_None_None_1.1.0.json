@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/thor/.wallpapers/lofi-open-sky.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0F132A",
+        "foreground": "#cfdbea",
+        "cursor": "#cfdbea"
+    },
+    "colors": {
+        "color0": "#0F132A",
+        "color1": "#186FD7",
+        "color2": "#3588DB",
+        "color3": "#5B9DDC",
+        "color4": "#619AC2",
+        "color5": "#8D99AD",
+        "color6": "#96B4DA",
+        "color7": "#cfdbea",
+        "color8": "#9099a3",
+        "color9": "#186FD7",
+        "color10": "#3588DB",
+        "color11": "#5B9DDC",
+        "color12": "#619AC2",
+        "color13": "#8D99AD",
+        "color14": "#96B4DA",
+        "color15": "#cfdbea"
+    }
+}
