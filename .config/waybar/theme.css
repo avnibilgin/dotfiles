@@ -1,0 +1,12 @@
+@import '../../.cache/wal/colors-waybar.css';
+
+@define-color bar-bg rgba(0, 0, 0, 0);
+
+@define-color main-bg @background;
+@define-color main-fg @foreground;
+
+@define-color wb-act-bg @color11;
+@define-color wb-act-fg @color0;
+
+@define-color wb-hvr-bg @color11;
+@define-color wb-hvr-fg @color0;
