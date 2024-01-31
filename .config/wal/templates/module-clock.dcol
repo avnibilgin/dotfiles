@@ -1,0 +1,3 @@
+                "months": "<span color='{color5}'><b>{{}}</b></span>",
+                "weekdays": "<span color='{color6}'><b>{{}}</b></span>",
+                "today": "<span color='{color5}'><b>{{}}</b></span>"

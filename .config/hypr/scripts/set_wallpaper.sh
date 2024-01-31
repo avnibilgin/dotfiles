@@ -27,14 +27,8 @@ swww img $HOME/.cache/current_wallpaper.jpg \
 convert -strip -scale 10% -blur 0x3 -resize 100% "$1" "$HOME/.cache/current_wallpaper.blur" &
 
 # Erstelle benutzerdefinierte Config-Dateien (mit PyWal-Templates)
-$HOME/.config/hypr/scripts/create_dunst_config.sh &
-$HOME/.config/hypr/scripts/create_jgmenu_config.sh &
 $HOME/.config/hypr/scripts/create_sddm_config.sh &
 $HOME/.config/hypr/scripts/create_module_clock_colors.sh &
-# $HOME/.config/hypr/scripts/create_polybar_colors.sh &
-
-# Aktualisiere betterlockscreen Wallpaper
-betterlockscreen -u $HOME/.cache/current_wallpaper.jpg &
 
 # Starte Waybar neu
 killall waybar

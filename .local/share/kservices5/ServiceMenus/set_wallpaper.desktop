@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+X-KDE-Priority=TopLevel
+MimeType=image/*
+Icon=preferences-desktop-wallpaper
+Actions=set_wallpaper;
+
+[Desktop Action set_wallpaper]
+Name=Als Wayland-Hintergundbild
+Exec=$HOME/.config/hypr/scripts/set_wallpaper.sh %f
