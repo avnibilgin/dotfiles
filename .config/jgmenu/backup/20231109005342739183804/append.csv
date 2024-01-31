@@ -1,8 +1,0 @@
-^sep()
-Lock,i3lock -c 000000,system-lock-screen
-Exit,^checkout(exit),system-shutdown
-^tag(exit)
-exit to prompt,openbox --exit,system-log-out
-Suspend,systemctl -i suspend,system-log-out
-Reboot,systemctl -i reboot,system-reboot
-Poweroff,systemctl -i poweroff,system-shutdown

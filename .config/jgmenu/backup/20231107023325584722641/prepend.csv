@@ -1,4 +1,0 @@
-@text,,32,12,150,20,0,left,top,auto,#000000,<span size='large'></span>
-@search,,46,12,150,20,2,left,top,auto,#000000 0,<i>Tippe für Suche</i>
-
-. ~/.config/mabox/favorites.csv

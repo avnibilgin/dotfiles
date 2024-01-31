@@ -124,7 +124,7 @@ alias rmcache="rm -r ~/.cache/*"
 
 # GIT aliases
 alias gst="git status"
-alias ga="git add -a"
+alias ga="git add -A"
 alias gc="git commit -m"
 alias gp="git push"
 alias gsp="git stash; git pull"
