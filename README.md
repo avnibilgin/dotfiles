@@ -23,7 +23,7 @@
 - CaskaydiaCove Nerd Font Mono
 - mononoki Nerd Font
 - mononoki Nerd Font Mono
-- Iosevska
+- Iosevka
 
 #### Icons:
 - Tela-circle-dracula (icons in menu, taskbar...)
