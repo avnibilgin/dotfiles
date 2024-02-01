@@ -2,14 +2,8 @@
 
 # Dotfiles for my Arch Linux + Hyprland configuration
 
+> „Simplicity is the ultimate sophistication.“ – Leonardo da Vinci
 
-> „Simplicity is the ultimate sophistication.“
->
->  Leonardo da Vinci
-
-
-> „Simplicity is the ultimate sophistication.“
->                                    Leonardo da Vinci
 
 ### About the icon fonts and themes I used for the waybar panel:
 
