@@ -12,9 +12,10 @@
 
 #### Nerd fonts (panel "icons" randomly mixed from this  nerd fonts):
 
-- Symbols Nerd Fond
-- Symbols Nerd Fond Mono
+- Symbols Nerd Font
+- Symbols Nerd Font Mono
 - JetBrains Mono
+- JetBrains Mono NL
 - JetBrainsMono Nerd Font
 - FantasqueSansMono Nerd Font
 - Hurmit Nerd Font
