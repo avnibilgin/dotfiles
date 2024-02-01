@@ -8,7 +8,7 @@
 ### About the icons / fonts I used for the waybar panel:
 
 #### Fonts:
-- Jetbrains (panel font), Futura (clock-widget)
+- Fira Sans SemiBold (panel font), Futura (clock-widget)
 
 #### Nerd fonts (panel "icons" randomly mixed from this  nerd fonts):
 
