@@ -5,7 +5,7 @@
 > „Simplicity is the ultimate sophistication.“ – Leonardo da Vinci
 
 
-### About the icon fonts and themes I used for the waybar panel:
+### About the icons / fonts I used for the waybar panel:
 
 #### Fonts:
 - Jetbrains (panel font), Futura (clock-widget)
