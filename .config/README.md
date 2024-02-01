@@ -5,3 +5,26 @@
 
 > „Simplicity is the ultimate sophistication.“
 >                                    Leonardo da Vinci
+
+### About the icon fonts and themes I used for the waybar panel:
+
+#### Fonts:
+- Jetbrains (panel font), Futura (clock-widget)
+
+#### Nerd fonts (panel "icons" randomly mixed from this  nerd fonts):
+
+- Symbols Nerd Fond
+- Symbols Nerd Fond Mono
+- JetBrains Mono
+- JetBrainsMono Nerd Font
+- FantasqueSansMono Nerd Font
+- Hurmit Nerd Font
+- Hurmit Nerd Font Mono
+- CaskaydiaCove Nerd Font
+- CaskaydiaCove Nerd Font Mono
+- mononoki Nerd Font
+- mononoki Nerd Font Mono
+- Iosevska
+
+#### Icons:
+- Tela-circle-dracula (icons in menu, taskbar...)
