@@ -186,7 +186,7 @@ tooltip {
 /* group "system" widgets */
 #custom-updates, #custom-power, #custom-cliphist, #custom-mako, #idle_inhibitor,
 /* group "devices" widgets */
-#bluetooth, #pulseaudio, #network, #custom-ddc_brightness,
+#bluetooth, #pulseaudio, #wireplumber, #network, #custom-ddc_brightness,
 /* group "quicklinks" widgets */
 #custom-filemanager, #custom-browser, #custom-terminal, #custom-editor,
 /* groups + custom-appmenu */

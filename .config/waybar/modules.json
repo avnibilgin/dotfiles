@@ -193,15 +193,13 @@
     },
 
     "pulseaudio": {
-        "format": "{icon} {volume}",
-        "format-muted": "婢",
-        "on-click": "pavucontrol -t 3",
-        "on-click-right": "pavucontrol -t 3",
-        "on-click-middle": "~/.config/hypr/scripts/volumecontrol.sh -o m",
-        "on-scroll-up": "~/.config/hypr/scripts/volumecontrol.sh -o i",
-        "on-scroll-down": "~/.config/hypr/scripts/volumecontrol.sh -o d",
-        "tooltip-format": "{icon} {desc} // {volume}%",
-        "scroll-step": 5,
+        "format": "{icon} {volume}%",
+        "format-muted": "",
+        "on-click": "~/.config/hypr/scripts/waybar-vol-progbar.sh --toggle",
+        "on-click-right": "pavucontrol-qt",
+        "on-scroll-up": "~/.config/hypr/scripts/waybar-vol-progbar.sh --inc",
+        "on-scroll-down": "~/.config/hypr/scripts/waybar-vol-progbar.sh --dec",
+        "tooltip-format": "{icon} {desc}",
         "format-icons": {
             "headphone": "",
             "hands-free": "",
