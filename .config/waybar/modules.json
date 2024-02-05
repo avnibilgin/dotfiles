@@ -23,9 +23,25 @@
     "group/time": {
         "orientation": "horizontal",
         "modules": [
-            "custom/timer"
+        "custom/timer"
          ]
     },
+
+    // Group Misc
+"group/misc": {
+    "orientation": "inherit",
+    "drawer": {
+        "transition-duration": 500,
+        "children-class": "not-misc",
+        "transition-right-to-left": false,
+    },
+    "modules": [
+        "custom/misc",
+        "custom/screenrecorder",
+        "idle_inhibitor",
+        "custom/timer"
+    ]
+},
 
         // Group Devices
     "group/devices": {
@@ -43,7 +59,6 @@
         "orientation": "horizontal",
         "modules": [
             "custom/updates",
-            "idle_inhibitor",
             "custom/mako",
             "custom/cliphist",
             "custom/power"
@@ -117,6 +132,11 @@
         "max-length": 1000
     },
 
+    "custom/misc": {
+        "format": " ",
+        "tooltip": false
+    },
+
     "custom/filemanager": {
         "format": " ",
         "on-click": "dolphin",
@@ -155,6 +175,17 @@
         "max-length": 10,
         "tooltip": true,
         "tooltip-format": " {used:0.1f}GB/{total:0.1f}GB"
+    },
+
+    "custom/screenrecorder": {
+        "exec": "$HOME/.config/hypr/scripts/waybar-wf-recorder.sh status",
+        "interval": "once",
+        "signal": 1,
+        "return-type": "json",
+        "tooltip": true,
+        "format": "{}",
+        "on-click": "$HOME/.config/hypr/scripts/waybar-wf-recorder.sh toggle fullscreen",
+        "on-click-right": "$HOME/.config/hypr/scripts/waybar-wf-recorder.sh toggle region"
     },
 
     "mpris": {

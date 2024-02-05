@@ -36,9 +36,12 @@
     ],
 
     "modules-right": [
-        "group/l-timer",
-        "custom/timer",
-        "group/r-timer",
+        "group/l-misc",
+        "group/misc",
+        "group/r-misc",
+//      "group/l-timer",
+//      "custom/timer",
+//      "group/r-timer",
         "group/l-devices",
         "group/devices",
         "group/r-devices",

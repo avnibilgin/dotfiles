@@ -12,6 +12,7 @@
 @define-color workspaces rgba(0, 0, 0, 0.6);
 @define-color taskbar rgba(0, 0, 0, 0.4);
 @define-color clock @foreground;
+@define-color misc rgba(0, 0, 0, 0.4);
 @define-color timer rgba(0, 0, 0, 0.4);
 @define-color devices rgba(0, 0, 0, 0.6);
 @define-color system rgba(0, 0, 0, 0.4);
@@ -28,7 +29,6 @@
 @define-color updates_green #a3be8c;
 @define-color updates_yellow #ff9a3c;
 @define-color updates_red #dc2f2f;
-
 
 /*
     ┏┓┏┓┳┓┏┓┳┓┏┓┓
@@ -184,13 +184,15 @@ tooltip {
 /* inactiv widget modules */
 #cpu, #memory, #mpris, #custom-spotify, #custom-mode, #custom-gpuinfo, #custom-ddcutil,
 /* group "system" widgets */
-#custom-updates, #custom-power, #custom-cliphist, #custom-mako, #idle_inhibitor,
+#custom-updates, #custom-power, #custom-cliphist, #custom-mako,
 /* group "devices" widgets */
-#bluetooth, #pulseaudio, #wireplumber, #network, #custom-ddc_brightness,
+#bluetooth, #pulseaudio, #wireplumber, #network, #custom-ddc_brightness, #custom-screenrecorder,
+/* group "misc" widgets */
+#custom-screenrecorder, #custom-misc, #idle_inhibitor,
 /* group "quicklinks" widgets */
 #custom-filemanager, #custom-browser, #custom-terminal, #custom-editor,
 /* groups + custom-appmenu */
-#custom-appmenu, #quicklinks, #window, #devices, #system {
+#custom-appmenu, #quicklinks, #window, #misc, #devices, #system {
     padding: 0px 10px;
     margin: 4px 0px;
 }
@@ -201,7 +203,7 @@ tooltip {
     ┣┛┗┛┗┻┛┗┛┛┗┗┛┻┛┗┗┛  ┛ ┗┗┛┛┗┗┛
 */
 
-#l-apps, #r-apps, #l-quicklinks, #r-quicklinks, #l-workspaces, #r-workspaces, #l-taskbar, #r-taskbar, #l-timer, #r-timer, #l-devices, #r-devices, #l-system, #r-system {
+#l-apps, #r-apps, #l-quicklinks, #r-quicklinks, #l-workspaces, #r-workspaces, #l-taskbar, #r-taskbar, #l-misc, #r-misc, #l-timer, #r-timer, #l-devices, #r-devices, #l-system, #r-system {
 background: transparent;
 margin-top: 4;
 margin-bottom: 4;
@@ -300,6 +302,28 @@ background: @taskbar;
 }
 
 /*
+    ┳┳┓┳┏┓┏┓
+    ┃┃┃┃┗┓┃
+    ┛ ┗┻┗┛┗┛
+*/
+
+#l-misc {
+border-left: 15 solid transparent;
+border-bottom: 30 solid @misc;
+margin-left:0;
+}
+
+#r-misc {
+border-left: 15 solid @misc;
+border-bottom: 30 solid transparent;
+margin-right:-15;
+}
+
+#misc {
+background: @misc;
+}
+
+/*
    ┏┳┓┳┳┳┓┏┓┳┓
     ┃ ┃┃┃┃┣ ┣┫
     ┻ ┻┛ ┗┗┛┛┗
@@ -317,9 +341,11 @@ border-bottom: 30 solid transparent;
 margin-right:-15;
 }
 
+/*
 #custom-timer {
 background: @timer;
 }
+*/
 
 /*
     ┳┓┏┓┓┏┳┏┓┏┓┏┓
