@@ -95,6 +95,7 @@ tooltip {
     color: @use_wrk_fg;
     padding: 1px 2px;
     margin: 1px 4px;
+
 }
 
 /*
@@ -111,14 +112,13 @@ tooltip {
     ┻ ┛┗┗┛┛┗┛┻┛┛┗┛┗
 */
 
-/*
 #taskbar.empty {
     background: transparent;
 }
-*/
 
 #taskbar {
     padding: 4px 10px;
+
 }
 
 #taskbar button {
@@ -149,11 +149,13 @@ tooltip {
     font-size: 14px;
     color: @clock;
     padding: 2px 10px 0px 10px;
+
     opacity: 1;
 }
 
 #custom-timer {
     padding: 2px 10px 0px 10px;
+
     min-width: 30px;
 }
 
@@ -190,197 +192,38 @@ tooltip {
 /* groups + custom-appmenu */
 #custom-appmenu, #quicklinks, #window, #misc, #devices, #system {
     padding: 0px 10px;
+
 }
 
 /*
-    ┏┓┏┓┓ ┏┏┓┳┓┓ ┳┳┓┏┓  ┳┳┓┏┓┳┓┳┳
-    ┃┃┃┃┃┃┃┣ ┣┫┃ ┃┃┃┣   ┃┃┃┣ ┃┃┃┃
-    ┣┛┗┛┗┻┛┗┛┛┗┗┛┻┛┗┗┛  ┛ ┗┗┛┛┗┗┛
+┳┓   ┓            ┓     ┓
+┣┫┏┓┏┃┏┏┓┏┓┏┓┓┏┏┓┏┫  ┏┏┓┃┏┓┏┓┏
+┻┛┗┻┗┛┗┗┫┛ ┗┛┗┻┛┗┗┻  ┗┗┛┗┗┛┛ ┛
+        ┛
 */
-
-#l-apps, #r-apps, #l-quicklinks, #r-quicklinks, #l-workspaces, #r-workspaces, #l-taskbar, #r-taskbar, #l-misc, #r-misc, #l-timer, #r-timer, #l-devices, #r-devices, #l-system, #r-system {
-background: transparent;
-min-height:0px;
-}
-
-/*
-    ┏┓┏┓┏┓┏┓
-    ┣┫┃┃┃┃┗┓
-    ┛┗┣┛┣┛┗┛
-*/
-
-/*  Not necessary because first widget. Removed from (config)
-    modules so bar is flush with left edge of monitor.  */
-
-#l-apps {
-border-left: 15 solid transparent;
-border-bottom: 30 solid @apps;
-margin-left:0;
-}
-
-#r-apps {
-border-left: 15 solid @apps;
-border-bottom: 30 solid transparent;
-margin-right:-15;
-}
 
 #custom-appmenu {
     background: @apps;
-}
-
-/*
-    ┏┓┳┳┳┏┓┓┏┓┓ ┳┳┓┓┏┓┏┓
-    ┃┃┃┃┃┃ ┃┫ ┃ ┃┃┃┃┫ ┗┓
-    ┗┻┗┛┻┗┛┛┗┛┗┛┻┛┗┛┗┛┗┛
-*/
-
-#l-quicklinks {
-border-left: 15 solid transparent;
-border-bottom: 30 solid @quicklinks;
-margin-left:0;
-}
-
-#r-quicklinks {
-border-left: 15 solid @quicklinks;
-border-bottom: 30 solid transparent;
-margin-right:-15;
 }
 
 #quicklinks {
 background: @quicklinks;
 }
 
-/*
-    ┓ ┏┏┓┳┓┓┏┓┏┓┏┓┏┓┏┓┏┓┏┓
-    ┃┃┃┃┃┣┫┃┫ ┗┓┃┃┣┫┃ ┣ ┗┓
-    ┗┻┛┗┛┛┗┛┗┛┗┛┣┛┛┗┗┛┗┛┗┛
-*/
-
-#l-workspaces {
-border-left: 15 solid transparent;
-border-bottom: 30 solid @workspaces;
-margin-left:0;
-}
-
-#r-workspaces {
-border-left: 15 solid @workspaces;
-border-bottom: 30 solid transparent;
-margin-right:-15;
-}
-
 #workspaces {
 background: @workspaces;
-}
-
-/*
-   ┏┳┓┏┓┏┓┓┏┓┳┓┏┓┳┓
-    ┃ ┣┫┗┓┃┫ ┣┫┣┫┣┫
-    ┻ ┛┗┗┛┛┗┛┻┛┛┗┛┗
-*/
-
-#l-taskbar {
-border-left: 15 solid transparent;
-border-bottom: 30 solid @taskbar;
-margin-left:0;
-}
-
-#r-taskbar {
-border-left: 15 solid @taskbar;
-border-bottom: 30 solid transparent;
-margin-right:-15;
 }
 
 #taskbar {
 background: @taskbar;
 }
 
-/*
-    ┳┳┓┳┏┓┏┓
-    ┃┃┃┃┗┓┃
-    ┛ ┗┻┗┛┗┛
-*/
-
-#l-misc {
-border-left: 15 solid transparent;
-border-bottom: 30 solid @misc;
-margin-left:0;
-}
-
-#r-misc {
-border-left: 15 solid @misc;
-border-bottom: 30 solid transparent;
-margin-right:-15;
-}
-
 #misc {
 background: @misc;
 }
 
-/*
-   ┏┳┓┳┳┳┓┏┓┳┓
-    ┃ ┃┃┃┃┣ ┣┫
-    ┻ ┻┛ ┗┗┛┛┗
-*/
-
-#l-timer {
-border-left: 15 solid transparent;
-border-bottom: 30 solid @timer;
-margin-left:0;
-}
-
-#r-timer {
-border-left: 15 solid @timer;
-border-bottom: 30 solid transparent;
-margin-right:-15;
-}
-
-/*
-#custom-timer {
-background: @timer;
-}
-*/
-
-/*
-    ┳┓┏┓┓┏┳┏┓┏┓┏┓
-    ┃┃┣ ┃┃┃┃ ┣ ┗┓
-    ┻┛┗┛┗┛┻┗┛┗┛┗┛
-*/
-
-#l-devices {
-border-left: 15 solid transparent;
-border-bottom: 30 solid @devices;
-margin-left:0;
-}
-
-#r-devices {
-border-left: 15 solid @devices;
-border-bottom: 30 solid transparent;
-margin-right:-15;
-}
-
 #devices {
 background: @devices;
-}
-
-/*
-    ┏┓┓┏┏┓┏┳┓┏┓┳┳┓
-    ┗┓┗┫┗┓ ┃ ┣ ┃┃┃
-    ┗┛┗┛┗┛ ┻ ┗┛┛ ┗
-*/
-
-#l-system {
-border-left: 15 solid transparent;
-border-bottom: 30 solid @system;
-margin-left:0;
-}
-
-/*  Not necessary because last widget. Removed from (config)
-    modules so bar is flush with right edge of monitor.  */
-
-#r-system {
-border-left: 15 solid @system;
-border-bottom: 30 solid transparent;
-margin-right:-15;
 }
 
 #system {
