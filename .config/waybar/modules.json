@@ -60,7 +60,7 @@
         "modules": [
             "custom/updates",
             "custom/mako",
-            "custom/cliphist",
+            "custom/copyq",
             "custom/power"
          ]
     },
@@ -86,6 +86,12 @@
         "tooltip": true,
         "on-scroll-up": "dunstctl close",
         "on-scroll-down": "dunstctl history-pop"
+    },
+
+        "custom/copyq": {
+        "format": "󰅍",
+        "on-click": "copyq toggle",
+        "tooltip": false
     },
 
     "include": ["~/.config/waybar/dcol_modules/clock.json"],
@@ -278,6 +284,7 @@
 		"on-click-middle": "close",
 		"on-click-right": "fullscreen",
 		"ignore-list": [
+            "com.github.hluk.copyq",
 			"alacritty-dropterm",
             "feathernotes",
             "ranger",

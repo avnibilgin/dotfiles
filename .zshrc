@@ -119,7 +119,7 @@ alias chownuser='sudo chown -R $(id -u):$(id -g)'
 #~ alias r="alacritty --class=ranger -e ranger"
 #~ alias sr="alacritty --class=ranger -e sudo -E ranger"
 alias r="ranger"
-alias sr="sudo -E ranger"
+alias sr="sudo ranger"
 alias rmcache="rm -r ~/.cache/*"
 
 # GIT aliases

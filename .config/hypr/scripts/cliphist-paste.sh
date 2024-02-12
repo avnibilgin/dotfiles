@@ -69,7 +69,7 @@ fnt_override="configuration {font: \"Futura Bk BT ${fnt_override}\";}"
 
 case $1 in
     c)  cliphist list | rofi -dmenu -theme-str "entry { placeholder: \"Suchen...\";} ${pos} ${r_override}" -theme-str "${fnt_override}" -config $roconf | cliphist decode | wl-copy
-    echo key ctrl+v | dotoolc
+    ydotool key 42:1 110:1 110:0 42:0
         ;;
     d)  cliphist list | rofi -dmenu -theme-str "entry { placeholder: \"Löschen...\";} ${pos} ${r_override}" -theme-str "${fnt_override}" -config $roconf | cliphist delete
         ;;

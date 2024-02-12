@@ -182,7 +182,7 @@ tooltip {
 /* inactiv widget modules */
 #cpu, #memory, #mpris, #custom-spotify, #custom-mode, #custom-gpuinfo, #custom-ddcutil,
 /* group "system" widgets */
-#custom-updates, #custom-power, #custom-cliphist, #custom-mako,
+#custom-updates, #custom-power, #custom-copyq, #custom-mako,
 /* group "devices" widgets */
 #bluetooth, #pulseaudio, #wireplumber, #network, #custom-ddc_brightness, #custom-screenrecorder,
 /* group "misc" widgets */
