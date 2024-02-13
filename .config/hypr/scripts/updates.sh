@@ -2,14 +2,14 @@
 
 
 # Determine the terminal
-term="kitty"
+term="alacritty"
 
 # Determine the AUR helper
 aur_hlpr="yay"
 
 # Define threshholds for color indicators
 threshhold_green=0
-threshhold_yellow=1
+threshhold_yellow=0
 threshhold_red=50
 
 # -----------------------------------------------------
