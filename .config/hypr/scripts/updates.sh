@@ -2,7 +2,7 @@
 
 
 # Determine the terminal
-term="alacritty"
+term="kitty"
 
 # Determine the AUR helper
 aur_hlpr="yay"

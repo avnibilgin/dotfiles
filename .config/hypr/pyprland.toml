@@ -31,3 +31,10 @@ animation = "fromTop"
 command = "alacritty --class=ranger -e sudo ranger"
 class = "ranger"
 lazy = true
+
+[scratchpads.pama]
+animation = "fromTop"
+command = "pamac-manager"
+class = "org.manjaro.pamac.manager"
+lazy = true
+size = "50% 80%"
