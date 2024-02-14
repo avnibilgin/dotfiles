@@ -1,0 +1,6 @@
+file:///home/thor/.config .config
+file:///home/thor/.config/autostart autostart
+file:///home/thor/.local/share (.local) share
+file:///home/thor/.local/share/applications (.local) applications
+file:///usr/share (usr) share
+file:///usr/share/applications (usr) applications
