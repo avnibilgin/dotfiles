@@ -1,17 +1,11 @@
 #!/usr/bin/python3
 
-import asyncio, copy, logging, sys
+import asyncio, copy, logging
 from evdev import InputDevice, ecodes, list_devices
 from systemd.journal import JournalHandler
 from virtual_device import create_virtual_device, remove_virtual_device
-import configparser
-
+from config import read_config_file
 from mouse import Mouse
-from config_parser import parse_config
-from swipe_recognizer import SwipeRecognizer
-
-config_file_location = "/etc/mouse-swipe.conf"
-
 
 def get_mouses():
     logger.info("Searching for mouses..")
@@ -61,10 +55,7 @@ def emulate_key_press(keys):
         virtual_device.write(ecodes.EV_KEY, ecodes.ecodes[key], 0)
         virtual_device.syn()
 
-
 async def task_handle_mouse_events(mouse):
-    sr = SwipeRecognizer()
-
     async for event in mouse.input_device.async_read_loop():
         should_forward = True
 
@@ -76,14 +67,12 @@ async def task_handle_mouse_events(mouse):
 
                     if event.code == ecodes.REL_X:
                         swipe_button.deltaX += event.value
-                        sr.update(event.value, 0)
 
                         if swipe_button.scroll and abs(swipe_button.deltaX) > 5:
                             emulate_event(ecodes.EV_REL, ecodes.REL_HWHEEL, 1 if swipe_button.deltaX > 0 else -1)
                             swipe_button.deltaX = 0
                     else:
                         swipe_button.deltaY += event.value
-                        sr.update(0, event.value)
 
                         if swipe_button.scroll and abs(swipe_button.deltaY) > 5:
                             emulate_event(ecodes.EV_REL, ecodes.REL_WHEEL, -1 if swipe_button.deltaY > 0 else 1)
@@ -98,16 +87,14 @@ async def task_handle_mouse_events(mouse):
                     absDeltaY = abs(swipe_button.deltaY)
 
                     if not(swipe_button.pressed):
-                        if len(sr.swipes()) == 0:
+                        if absDeltaX < 5 and absDeltaY < 5:
                             emulate_key_press(swipe_button.click)
-                            print("Gesture finished. No swipes.")
-                        else:
-                            gesture = swipe_button.find_for_swipes(sr.swipes())
-                            print("Finished with gestures={} due to swipes={}".format(gesture, sr.swipes()))
-                            if gesture != None:
-                                emulate_key_press(gesture.commands)
-
-                        sr = SwipeRecognizer()
+                        elif not(swipe_button.scroll):
+                            if absDeltaX > absDeltaY:
+                                emulate_key_press(swipe_button.swipe_right if swipe_button.deltaX > 0 else swipe_button.swipe_left)
+                            else:
+                                emulate_key_press(swipe_button.swipe_down if swipe_button.deltaY > 0 else swipe_button.swipe_up)
+                            
                         swipe_button.deltaX = 0
                         swipe_button.deltaY = 0
             
@@ -153,29 +140,22 @@ if __name__ == "__main__":
     try:
         logger = logging.getLogger('mouse-swipe')
         logger.addHandler(JournalHandler())
-        logger.addHandler(logging.StreamHandler(sys.stdout))
         logger.setLevel(logging.INFO)
     except BaseException as e:
         print(e)
         quit()
         
-
-
     try:
         virtual_device = create_virtual_device()
-
-        config = configparser.ConfigParser()
-        config.read(config_file_location)
-        config_swipe_buttons = parse_config(config)
+        config_swipe_buttons = read_config_file()
     except Exception as e:
         logger.info(e)
         quit()
 
     while True:
         try:
-            print("Run..")
             asyncio.run(run_tasks())
-        except:
+        except KeyboardInterrupt:
             print("Exiting..")
             break
 
