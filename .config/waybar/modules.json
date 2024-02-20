@@ -238,7 +238,7 @@
         "on-scroll-down": "~/.config/hypr/scripts/waybar-vol-progbar.sh --dec",
         "tooltip-format": "{icon} {desc}",
         "format-icons": {
-            "headphone": "",
+            "headphone": ["", "", ""],
             "hands-free": "",
             "headset": "",
             "phone": "",

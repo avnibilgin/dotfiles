@@ -17,10 +17,10 @@ nwg-menu \
 #~ -iss 16 \
 #~ -lang "de" \
 #~ -padding 2 \
-#~ -mb 10 \
+# -mb 100 \
 #~ -ml 10 \
 #~ -mr 10 \
-#~ -mt 10 \
+# -mt 100 \
 #~ -o "your_output_name" \
 #~ -term "alacritty" \
 #~ -v \
