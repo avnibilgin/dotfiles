@@ -4,7 +4,7 @@
 
         "tooltip-format": "<tt>{calendar}</tt>",
         "calendar": {
-            "mode": "month",
+            "mode": "year",
             "mode-mon-col": 3,
             "on-scroll": 1,
             "on-click-right": "mode",

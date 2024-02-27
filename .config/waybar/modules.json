@@ -15,7 +15,9 @@
             "custom/filemanager",
             "custom/browser",
             "custom/terminal",
-            "custom/editor"
+//          "custom/editor",
+            "custom/obsidian"
+
          ]
     },
 
@@ -144,7 +146,7 @@
     },
 
     "custom/filemanager": {
-        "format": " ",
+        "format": " ",
         "on-click": "dolphin",
         "tooltip": false
     },
@@ -164,6 +166,12 @@
     "custom/browser": {
         "format": " ",
         "on-click": "firefox",
+        "tooltip": false
+    },
+
+    "custom/obsidian": {
+        "format": " ",
+        "on-click": "obsidian",
         "tooltip": false
     },
 

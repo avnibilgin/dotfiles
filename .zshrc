@@ -122,6 +122,8 @@ alias rmcache="rm -r ~/.cache/*"
 
 alias r="ranger"
 alias sr="sudo -E ranger"
+alias ascii='~/.dotfiles/scripts/figlet.sh'
+alias dot="cd ~/.dotfiles"
 
 # GIT aliases
 alias gst="git status"
@@ -279,7 +281,7 @@ alias xd="ls /usr/share/xsessions"
 alias personal='cp -Rf /personal/* ~'
 
 # reporting tools - install when not installed
-neofetch
+#neofetch
 #screenfetch
 #alsi
 #paleofetch
@@ -303,3 +305,13 @@ test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
 
 # PyWal-Farbpalette für Kitty aktivieren
 (cat ~/.cache/wal/sequences &)
+
+# neofetch only if Terminal Alacritty
+if [[ "$(cat /proc/$PPID/comm)" =~ "(alacritty)" ]]; then
+    neofetch
+fi
+
+# Autostart Hyprland
+if [ "$(tty)" = "/dev/tty1" ];then
+  exec Hyprland
+fi

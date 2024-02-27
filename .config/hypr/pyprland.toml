@@ -5,7 +5,7 @@ plugins = [
 ]
 
 [scratchpads.term]
-animation = "fromTop"
+animation = "fromLeft"
 command = "alacritty --class alacritty-dropterm"
 class = "alacritty-dropterm"
 lazy = true
@@ -20,7 +20,7 @@ margin = 5
 size = "40% 50%"
 
 [scratchpads.passw]
-animation = "fromTop"
+animation = "fromBottom"
 command = "keepassxc"
 class = "org.keepassxc.KeePassXC"
 lazy = true

@@ -1,4 +1,5 @@
 Xft.dpi: 96
+Xcursor.theme: Bibata-Modern-Ice
 Xft.hinting: true
 Xft.hintstyle: hintslight
 Xft.antialias: true

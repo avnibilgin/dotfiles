@@ -6,6 +6,7 @@
     ┗┛┗┻┛┛┗  ┗┛┗┛┗┛┗┛┛┗┗┛
 */
 
+@define-color middle-module rgba(0, 0, 0, 0.2);
 /* waybar area/group colors*/
 @define-color apps rgba(0, 0, 0, 0.6);
 @define-color quicklinks rgba(0, 0, 0, 0.4);
@@ -45,7 +46,7 @@
 
 window#waybar {
     color: @foreground;
-    background: transparent;
+    background: @middle-module;
 }
 
 tooltip {
@@ -186,7 +187,7 @@ tooltip {
 /* group "misc" widgets */
 #custom-screenrecorder, #custom-misc, #idle_inhibitor,
 /* group "quicklinks" widgets */
-#custom-filemanager, #custom-browser, #custom-terminal, #custom-editor, #custom-obsidian,
+#custom-filemanager, #custom-browser, #custom-terminal, #custom-editor,
 /* groups + custom-appmenu */
 #custom-appmenu, #quicklinks, #window, #misc, #devices, #system {
     padding: 0px 10px;
