@@ -1,3 +1,7 @@
+import = [
+   "~/.config/alacritty/themes/themes/tokyo-night.toml"
+]
+
 [cursor]
 style = "Beam"
 

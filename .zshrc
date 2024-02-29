@@ -81,7 +81,8 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting)
+#plugins=(git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git sudo zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,24 +103,13 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# AB HIER ÜBERNOMMEN von von Erik Dubois modifizierten bash.rc
+# Aliases
 
-# meine aliase
+# My aliases
 alias lsblk='lsblk -o NAME,LABEL,MOUNTPOINTS,SIZE,FSTYPE,FSUSED,FSUSE%,UUID,ID'
 alias chownuser='sudo chown -R $(id -u):$(id -g)'
-#~ alias r="alacritty --class=ranger -e ranger"
-#~ alias sr="alacritty --class=ranger -e sudo -E ranger"
 alias rmcache="rm -r ~/.cache/*"
-
 alias r="ranger"
 alias sr="sudo -E ranger"
 alias ascii='~/.dotfiles/scripts/figlet.sh'
@@ -226,15 +216,9 @@ alias mirrorx="sudo reflector --age 6 --latest 20  --fastest 20 --threads 5 --so
 alias mirrorxx="sudo reflector --age 6 --latest 20  --fastest 20 --threads 20 --sort rate --protocol https --save /etc/pacman.d/mirrorlist"
 alias ram='rate-mirrors --allow-root arch | sudo tee /etc/pacman.d/mirrorlist'
 
-#mounting the folder Public for exchange between host and guest on virtualbox
-alias vbm="sudo /usr/local/bin/arcolinux-vbox-share"
-
 #Recent Installed Packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
-
-#iso and version used to install ArcoLinux
-alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
 
 #Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
@@ -266,16 +250,9 @@ alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 alias fix-gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 alias fix-keyserver="[ -d ~/.gnupg ] || mkdir ~/.gnupg ; cp /etc/pacman.d/gnupg/gpg.conf ~/.gnupg/ ; echo 'done'"
 
-#hblock (stop tracking with hblock)
-#use unhblock to stop using hblock
-alias unhblock="hblock -S none -D none"
-
 #systeminfo
 alias probe="sudo -E hw-probe -all -upload"
 alias sysfailed="systemctl list-units --failed"
-
-#give the list of all installed desktops - xsessions desktops
-alias xd="ls /usr/share/xsessions"
 
 #moving your personal files and folders from /personal to ~
 alias personal='cp -Rf /personal/* ~'
@@ -298,16 +275,18 @@ alias personal='cp -Rf /personal/* ~'
 
 export RANGER_LOAD_DEFAULT_RC=FALSE
 
-test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
+# custom colors for Terminal
+#test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
+
+# pyWal colors for Terminal
+#(cat ~/.cache/wal/sequences &)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# PyWal-Farbpalette für Kitty aktivieren
-(cat ~/.cache/wal/sequences &)
 
 # neofetch only if Terminal Alacritty
-if [[ "$(cat /proc/$PPID/comm)" =~ "(alacritty)" ]]; then
+if [[ "$(cat /proc/$PPID/comm)" =~ "(alacritty|kitty)" ]]; then
     neofetch
 fi
 
