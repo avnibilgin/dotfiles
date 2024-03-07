@@ -9,9 +9,9 @@
             "on-scroll": 1,
             "on-click-right": "mode",
             "format": {
-                "months": "<span color='#AEACA1'><b>{}</b></span>",
-                "weekdays": "<span color='#C6B9B3'><b>{}</b></span>",
-                "today": "<span color='#AEACA1'><b>{}</b></span>"
+                "months": "<span color='#84BFC0'><b>{}</b></span>",
+                "weekdays": "<span color='#96D1D2'><b>{}</b></span>",
+                "today": "<span color='#84BFC0'><b>{}</b></span>"
             }
         },
         "actions": {

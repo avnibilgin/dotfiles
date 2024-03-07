@@ -11,7 +11,7 @@
 @define-color quicklinks rgba(0, 0, 0, 0.4);
 @define-color workspaces rgba(0, 0, 0, 0.6);
 @define-color taskbar rgba(0, 0, 0, 0.4);
-@define-color clock @foreground;
+@define-color clock @background;
 @define-color misc rgba(0, 0, 0, 0.4);
 @define-color timer rgba(0, 0, 0, 0.4);
 @define-color devices rgba(0, 0, 0, 0.6);

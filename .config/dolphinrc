@@ -1,0 +1,54 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
+
+[Desktop Entry]
+DefaultProfile=my-custom.profile
+
+[DetailsMode]
+PreviewSize=16
+
+[General]
+CloseActiveSplitView=false
+GlobalViewProps=false
+ShowFullPath=true
+ShowSelectionToggle=false
+ShowStatusBar=false
+Version=202
+ViewPropsTimestamp=2023,4,26,16,58,48.324
+
+[IconsMode]
+MaximumTextLines=2
+PreviewSize=80
+
+[InformationPanel]
+dateFormat=ShortFormat
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=16
+
+[KPropertiesDialog]
+1920x1080 screen: Height=469
+1920x1080 screen: Width=559
+1920x1080 screen: Window-Maximized=true
+2560x1080 screen: Window-Maximized=true
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+IconSize=16
+ToolButtonStyle=IconOnly
+
+[PlacesPanel]
+IconSize=16
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,windowsexethumbnail,imagethumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,jpegthumbnail,kraorathumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail,ffmpegthumbs
+
+[Toolbar mainToolBar]
+IconSize=16
+ToolButtonStyle=IconOnly

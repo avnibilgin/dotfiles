@@ -5,6 +5,7 @@ max-history=50
 max-visible=-1
 
 on-button-right=exec makoctl dismiss -a
+on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga
 
 anchor=top-right
 width=400
@@ -13,8 +14,8 @@ padding=8
 margin=10
 background-color=#0B0D2B80
 border-color=#4E7286
-border-size=2
-border-radius=10
+border-size=1
+border-radius=0
 
 font=Futura Bk Bt 11
 text-color=#E5CFC1
