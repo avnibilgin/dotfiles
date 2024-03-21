@@ -5,7 +5,7 @@ max-history=50
 max-visible=-1
 
 on-button-right=exec makoctl dismiss -a
-on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga
+# on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga
 
 anchor=top-right
 width=400

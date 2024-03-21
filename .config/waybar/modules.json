@@ -184,11 +184,11 @@
 
     "memory": {
         "interval": 30,
-        "format": "󰾆 {percentage}%",
-        "format-alt": "󰾅 {used}GB",
+        "format": "{used:0.3f} GB",
+        "format-alt": "󰾆 {percentage}%",
         "max-length": 10,
         "tooltip": true,
-        "tooltip-format": " {used:0.1f}GB/{total:0.1f}GB"
+        "tooltip-format": "  {used:0.1f}GB / {total:0.1f}GB"
     },
 
     "custom/screenrecorder": {
